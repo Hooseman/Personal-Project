@@ -1,0 +1,32 @@
+<div class="dropdown-content is-active">
+    <h2 class="dropdown-content-h2">{{name || "MODEL 11-87"}}</h2>
+
+    <a class="dropdown-content-a" href="#">
+        <div class="dropdown-content-a-div1" href="#">
+            {{desc || "FEATURING THE MODEL 11-87™ SPORTSMAN® CANTILEVER SLUG"}}
+        </div>
+        <div class="dropdown-content-a-div2">
+            <img src="{{imageurl || 'http://bit.ly/2nnLgOU'}}" style="height:150px;width:825px"/>
+        </div>
+    </a>
+
+    <div class="dropdown-content-div">
+        <div class="dropdown-content-div-description">
+            <a class="div3-description-msrp" href="#">
+                <small>MSRP from</small>
+                <p id="div3-description-msrp-smalltext">${{dollar || "899"}} <sup>{{cents || "00"}}</sup></p>
+            </a>
+            <a class="div3-description-btn" href="#">
+                <p id="div3-description-btn-text">
+                    THERE ARE {{modelNum || "4"}} {{name || "MODEL 11-87"}} SHOTGUN STYLES&nbsp;AVAILABLE
+                </p>
+            </a>
+        </div>
+
+        <div class="dropdown-content-div-buttons">
+            <a href="#" class="div3-buttons-green"><span id="green-button">RELATED PRODUCTS</span></a>
+            <a href="#" class="div3-buttons-green"><span id="green-button">{{class || "AUTOLOADING"}}</span></a>
+            <a href="#" class="div3-buttons-green"><span id="green-button">{{name || "MODEL 11-87"}}</span></a>
+        </div>
+    </div>
+</div>

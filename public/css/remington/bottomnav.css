@@ -1,0 +1,247 @@
+.bottomfooter-spacing {
+    width: 100vw;
+    height: 600px;
+    background-color: #074b23;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-footer {
+    width: 100%;
+    height: 110px;
+    /*background-color: black;*/
+    display: flex;
+}
+
+.top-footer-left {
+    width: 500px;
+    height: 110px;
+    /*background-color: blue;*/
+}
+
+.top-footer-middle {
+    width: 500px;
+    height: 110px;
+    /*background-color: red;*/
+}
+
+.top-footer-right {
+    width: 500px;
+    height: 110px;
+    /*background-color: purple;*/
+}
+
+.remington-bottom {
+    font-size: 40px;
+    margin-left: 102px;
+    position: relative;
+    top: 34px;
+    left: 113px;
+}
+
+#top-footer-middle-text {
+    position: relative;
+    top: 47px;
+    left: -5px;
+    font-size: 20px;
+    color: white;
+}
+
+.search-footer {
+    vertical-align: middle;
+    position: relative;
+    top: 37px;
+    width: 272px;
+    height: 30px;
+}
+
+.inside-footer-spacing {
+    width: 98%;
+    height: 477px;
+    /*background-color: black;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-left-footer {
+    width: 747px;
+    height: 443px;
+    /*background-color: white;*/
+    position: relative;
+    left: 197px;
+    display: flex;
+    color: white;
+}
+
+.inner-left-footer-left {
+    width: 249px;
+    height: 443px;
+    /*background-color: orange;*/
+}
+
+.inner-left-last-left {
+    width: 249px;
+    height: 443px;
+    /*background-color: orange;*/
+}
+
+.inner-left-footer-left-top {
+    width: 121px;
+    height: 163px;
+    /*background-color: cadetblue;*/
+}
+
+.inner-left-footer-left-middle {
+    width: 121px;
+    height: 90px;
+    /*background-color: cadetblue;*/
+    position: relative;
+    top: 13px;
+}
+
+.inner-left-footer-left-bottom {
+    width: 121px;
+    height: 163px;
+    /*background-color: cadetblue;*/
+    position: relative;
+    top: 27px;
+}
+
+.inner-left-footer-middle-top {
+    width: 121px;
+    height: 163px;
+    /*background-color: cadetblue;*/
+}
+
+.inner-left-footer-middle-middle {
+    width: 121px;
+    height: 90px;
+    /*background-color: cadetblue;*/
+    position: relative;
+    top: 13px;
+}
+
+.inner-left-footer-middle-bottom {
+    width: 121px;
+    height: 163px;
+    /*background-color: cadetblue;*/
+    position: relative;
+    top: 60px;
+}
+
+.inner-left-footer-last-top {
+    width: 121px;
+    height: 163px;
+    /*background-color: cadetblue;*/
+}
+
+.inner-left-footer-last-middle {
+    width: 121px;
+    height: 90px;
+    /*background-color: cadetblue;*/
+    position: relative;
+    top: 13px;
+}
+
+#inner-gun-rifle {
+    font-size: 13px;
+    white-space: nowrap;
+    line-height: 18px;
+}
+
+#cap {
+    font-weight: 800;
+}
+
+#border {
+    border-right-style: solid;
+    border-right-color: white;
+}
+
+.inner-footer-flex {
+    display: flex;
+    flex-direction: column;
+    width: 394px;
+}
+
+.inner-right-footer-top {
+    width: 124px;
+    height: 50px;
+    /*background-color: wheat;*/
+    position: relative;
+    right: 18px;
+}
+
+#catalog-text {
+    font-size: 26px;
+    color: white;
+    transform: scale(1, 1.5);
+}
+
+.inner-right-footer-middle {
+    width: 207px;
+    height: 136px;
+    position: relative;
+    right: 18px;
+    background-image: url(http://bit.ly/2nvZ1Zi);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner-footer-flex-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.inner-right-footer-last {
+    width: 100px;
+    height: 33px;
+    background-color: white;
+    position: relative;
+    right: 17px;
+    top: 10px;
+    display: flex;
+}
+
+#footer-last-text {
+    position: relative;
+    top: 7px;
+    left: 13px;
+    font-size: 14px;
+}
+
+#footer-last-text-one {
+    position: relative;
+    left: 15px;
+    font-size: 12px;
+    top: 9px;
+}
+
+.inner-right-footer-last-one {
+    width: 100px;
+    height: 33px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+#inner-right-footer-text {
+    text-align: center;
+    position: relative;
+    top: 8px;
+    font-size: 14px;
+}
+
+.social-media {
+    display: flex;
+    position: relative;
+    right: 392px;
+    top: 69px;
+}
+
+.fa-1 {
+    margin-right: 30px !important;
+}

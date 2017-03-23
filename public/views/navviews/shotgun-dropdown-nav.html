@@ -1,0 +1,78 @@
+<div class="dropdown-wrapper">
+    <div class="dropdown-container">
+<shotgun-template></shotgun-template>
+
+
+        <ul class="dropdown-ul">
+            <!-- Shotguns -->
+            <li class="dropdown-ul-li">
+                <div class="dropdown-ul-li-nav2">
+                    <a ui-sref="rifles" class="dropdown-ul-li-nav2-a">
+                        <p id="dropdown-ul-li-nav2-text">SHOTGUNS</p>
+                    </a>
+
+                    <ul class="nav2-ul">
+                        <!-- Auto Loading -->
+                        <li class="nav2-ul-li" ng-init=>
+                            <div class="nav2-ul-li-wrapper">
+                                <div ng-click="clickAutoLoading();clickShotgunTemplate(1)">
+                                    <a class="nav2-ul-li-wrapper-a">AUTOLOADING</a>
+                                </div>
+                            </div>
+                            <div class="nav2-ul-li-content" ng-if="showAutoLoading">
+                                <ul class="nav2-ul">
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickShotgunTemplate(1)"><span>MODEL 11-87</span></a>
+                                    </li>
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickShotgunTemplate(2)"><span>MODEL 1100</span></a>
+                                    </li>
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickShotgunTemplate(3)"><span>V3 FIELD SPORT</span></a>
+                                    </li>
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickShotgunTemplate(4)"><span>VERSA MAX</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- Pump Action -->
+                        <li class="nav2-ul-li">
+                            <div class="nav2-ul-li-wrapper">
+                                <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickShotPumpaction();clickShotgunTemplate(5)"><span>PUMP ACTION</span></a>
+                            </div>
+                            <div class="nav2-ul-li-content" ng-if="showShotPumpAction">
+                                <ul class="nav2-ul">
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickShotgunTemplate(5)"><span>Model 870</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                            </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+
+            <!-- Shotguns -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Handguns -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Ammo -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Other Products -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Custom Shop -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Remington Country -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Shop -->
+            <li class="dropdown-ul-li"></li>
+        </ul>
+
+
+    </div>
+</div>

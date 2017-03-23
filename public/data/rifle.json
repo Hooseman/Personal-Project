@@ -1,0 +1,113 @@
+[
+  {
+  "id": 1,
+  "name": "MODEL 700",
+  "class": "BOLT-ACTION",
+  "description":"Featuring the Model 700 Long Range",
+  "modelNum": 29,
+  "dollar": 879,
+  "cents": "76",
+  "imageurl": "http://bit.ly/2nE3exs",
+  "weaponType": 1
+},
+{
+  "id": 2,
+  "name": "MODEL SEVEN",
+  "class": "BOLT-ACTION",
+  "description":"FEATURING THE MODEL SEVEN SYNTHETIC BOLT-ACTION",
+  "modelNum": 5,
+  "dollar": 731,
+  "cents": "",
+  "imageurl": "http://bit.ly/2mOdChe",
+  "weaponType": 1
+},
+  {
+  "id": 3,
+  "name": "MODEL 783",
+  "class": "BOLT-ACTION",
+  "description":"FEATURING THE MODEL 783 SCOPED",
+  "modelNum": 2,
+  "dollar": 399,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nQsuxe",
+  "weaponType": 1
+},
+{
+  "id": 4,
+  "name": "MODEL R-15",
+  "class": "MODERN SPORTING",
+  "description":"FEATURING THE MODEL R-15 VTR SS VARMINT",
+  "modelNum": 5,
+  "dollar": 1299,
+  "cents": "",
+  "imageurl": "http://bit.ly/2n5OwfJ",
+  "weaponType": 1
+},
+{
+  "id": 5,
+  "name": "MODEL R-25 G11",
+  "class": "MODERN SPORTING",
+  "description":"FEATURING THE MODEL R-25 G11",
+  "modelNum": 0,
+  "dollar": 1697,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nI4T53",
+  "weaponType": 1
+},
+{
+  "id": 6,
+  "name": "MODEL 700 ULTIMATE",
+  "class": "MUZZLELOADING",
+  "description":"FEATURING THE MODEL 700 LSS ULTIMATE MUZZLELOADER",
+  "modelNum": 2,
+  "dollar": 949,
+  "cents": "",
+  "imageurl": "http://bit.ly/2o4I1ZP",
+  "weaponType": 1
+},
+{
+  "id": 7,
+  "name": "MODEL 7600",
+  "class": "PUMP-ACTION",
+  "description":"FEATURING THE MODEL 7600 - 200TH ANN. LTD. ED.",
+  "modelNum": 2,
+  "dollar": 918,
+  "cents": "",
+  "imageurl": "http://bit.ly/2o4UKeY",
+  "weaponType": 1
+},
+{
+  "id": 8,
+  "name": "MODEL 597",
+  "class": "RIMFIRE",
+  "description":"FEATURING THE MODEL 597 PINK CAMO",
+  "modelNum": 3,
+  "dollar": 254,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nBXzY9",
+  "weaponType": 1
+},
+{
+  "id": 9,
+  "name": "MODEL 552 SPEEDMASTER",
+  "class": "RIMFIRE",
+  "description":"FEATURING THE MODEL 552 BDL™ SPEEDMASTER®",
+  "modelNum": 0,
+  "dollar": 707,
+  "cents": "",
+  "imageurl": "http://bit.ly/2mQoTxL",
+  "weaponType": 1
+},
+{
+  "id": 10,
+  "name": "MODEL 572 FEILDMASTER",
+  "class": "RIMFIRE",
+  "description":"FEATURING THE MODEL 572 BDL™ FIELDMASTER®",
+  "modelNum": 0,
+  "dollar": 723,
+  "cents": "",
+  "imageurl": "http://bit.ly/2msWXoi",
+  "weaponType": 1
+}
+
+]

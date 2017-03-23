@@ -1,0 +1,289 @@
+.underFlicky {
+    background-image: url(http://bit.ly/2m2HYkx);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 416px;
+    background-position-y: -160px;
+    position: relative;
+    top: 228px;
+    display: flex;
+    justify-content: center;
+}
+
+.underFlickyBox {
+    width: 443px;
+    height: 287px;
+    border-style: solid;
+    border-color: white;
+    position: relative;
+    margin-right: 28px;
+    top: 65px;
+    left: 12px;
+}
+
+.rebateLogo {
+    background-image: url("http://bit.ly/2n3aCBv");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 103px;
+    height: 41px;
+    margin: auto;
+    position: relative;
+    top: 42px;
+}
+
+#rebateText {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 58px;
+    font-size: 30px;
+    word-spacing: -3px;
+}
+
+.learnMore {
+    width: 185px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    top: 104px;
+}
+
+#learnMoreText {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+}
+
+.catalogLogo {
+    background-image: url("http://bit.ly/2nvZ1Zi");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130px;
+    height: 88px;
+    margin: auto;
+    position: relative;
+    top: 18px;
+}
+
+#catalogText {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 25px;
+}
+
+.diveIn {
+    width: 166px;
+    height: 30px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+#diveInText {
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+
+.gameTiles {
+    width: 100vw;
+    height: 799px;
+}
+
+.tileFirstRow {
+    display: flex;
+    height: 228px;
+    width: 870px;
+    margin: auto;
+    position: relative;
+    top: 251px;
+    justify-content: space-between;
+}
+
+.tileSecondRow {
+    display: flex;
+    height: 228px;
+    width: 870px;
+    margin: auto;
+    position: relative;
+    top: 197px;
+    justify-content: space-between;
+}
+
+.tileLastRow {
+    display: flex;
+    height: 199px;
+    width: 900px;
+    margin: auto;
+    position: relative;
+    top: 143px;
+}
+
+#tile {
+    width: 196px;
+    height: 149px;
+    position: relative;
+    top: 25px;
+}
+
+#tile:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    mix-blend-mode: hard-light;
+}
+
+#tile:hover:before {
+    background: #074b23;
+}
+
+#tileTwo {
+    width: 196px;
+    height: 149px;
+    position: relative;
+    top: 25px;
+    margin-right: 33px;
+    left: 115px;
+}
+
+#tileTwo:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    mix-blend-mode: hard-light;
+}
+
+#tileTwo:hover:before {
+    background: #074b23;
+}
+
+#tileImageText {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 63px;
+    font-size: 22px;
+}
+
+.tileImageOne {
+    background-image: url("http://bit.ly/2mxbGJI");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageTwo {
+    background-image: url("http://bit.ly/2mTNcOz");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageThree {
+    background-image: url("http://bit.ly/2mTWhXp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageFour {
+    background-image: url("http://bit.ly/2neBG0X");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageFive {
+    background-image: url("http://bit.ly/2nJEX4T");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageSix {
+    background-image: url("http://bit.ly/2neoV6B");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageSeven {
+    background-image: url("http://bit.ly/2nwLG2T");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageEight {
+    background-image: url("http://bit.ly/2n3XR9B");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageNine {
+    background-image: url("http://bit.ly/2nevINP");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageTen {
+    background-image: url("http://bit.ly/2mTKTL4");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tileImageEleven {
+    background-image: url("http://bit.ly/2neAOt6");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parrolaxSpacing {
+    width: 100vw;
+    height: 530px;
+    position: relative;
+}
+
+.parrolaxBg {
+    background-image: url(http://bit.ly/2mziWG6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+}
+
+.parallax-logo {
+    -webkit-transition: max-width .2s ease;
+    transition: max-width .2s ease;
+    position: absolute;
+    width: 100%;
+    /*max-width: 150px;*/
+    margin: -72px 0 0 -75px;
+    left: 50%;
+    top: 50%;
+    opacity: 0.9;
+    max-width: 400px;
+    margin: -192px 0 0 -200px;
+}
+
+.logo-r-green {
+    fill: #286017;
+}

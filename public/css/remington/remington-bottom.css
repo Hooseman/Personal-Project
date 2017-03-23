@@ -1,0 +1,361 @@
+.media {
+    width: 100vw;
+    height: 1751px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-one {
+
+}
+
+.media-two {
+  position: relative;
+    top: 60px;
+}
+
+.media-left-up {
+    width: 300px;
+    height: 484px;
+    position: relative;
+    margin-left: 200px;
+    top: 61px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    color: #074b23
+}
+
+#media-left-up-text {
+    position: relative;
+    left: 10px;
+    font-size: 24px;
+    top: 14px;
+    color: #074b23;
+}
+
+.media-center-left {
+    position: relative;
+    /*bottom: 60px;*/
+}
+
+.media-left-one {
+  width: 277px;
+height: 125px;
+position: relative;
+top: 0px;
+left: 9px;
+}
+
+.media-left-two {
+  width: 277px;
+  height: 155px;
+  position: relative;
+  top: 33px;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-width: thin;
+  left: 9px;
+}
+
+.media-left-three {
+  width: 277px;
+height: 92px;
+position: relative;
+top: 38px;
+left: 9px;
+border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: thin;
+}
+
+#media-left-text {
+    position: relative;
+    font-size: 25px;
+    top: 43px;
+    left: 10px;
+}
+
+#media-left-text-ones {
+    position: relative;
+    font-size: 25px;
+    top: 25px;
+    left: 10px;
+}
+
+#media-left-text-two {
+    position: relative;
+    font-size: 25px;
+    top: 29px;
+    left: 10px;
+}
+
+.media-left-up-one {
+    width: 300px;
+    height: 1172px;
+    position: relative;
+    margin-left: 200px;
+    top: 16px;
+    color: #074b23
+}
+
+.media-left-one-one {
+    width: 277px;
+    height: 40px;
+    position: relative;
+    top: 90px;
+    left: 9px;
+}
+
+.media-left-two-one {
+    width: 277px;
+    height: 300px;
+    position: relative;
+    top: 91px;
+    border-bottom: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: thin;
+    left: 9px;
+}
+
+.media-left-three-one {
+    width: 277px;
+    height: 382px;
+    position: relative;
+    top: 91px;
+    left: 9px;
+    border-bottom: black;
+    border-style: solid;
+    border-width: thin;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.media-left-four-one {
+    width: 277px;
+    height: 382px;
+    position: relative;
+    top: 91px;
+    left: 9px;
+}
+
+.media-left-five-one {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin: auto;
+    top: 83px;
+    background-color: #074b23;
+}
+
+.media-left-image {
+    background-image: url("http://bit.ly/2mONHHJ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110px;
+    height: 64px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.media-left-image-one {
+    background-image: url("http://bit.ly/2m7YP5G");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110px;
+    height: 64px;
+    position: relative;
+    top: 35px;
+    left: 10px;
+}
+
+.media-left-image-two {
+    background-image: url("http://bit.ly/2n4MG0w");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110px;
+    height: 64px;
+    position: relative;
+    top: 35px;
+    left: 10px;
+}
+
+#media-left-text-one {
+    position: relative;
+    font-size: 25px;
+    top: 7px;
+    left: 10px;
+}
+
+#media-left-text-two {
+    position: relative;
+    font-size: 25px;
+    top: 25px;
+    left: 10px;
+}
+
+#media-left-text-three {
+    position: relative;
+    font-size: 16px;
+    top: 53px;
+    left: 10px;
+    line-height: 18px;
+}
+
+#media-left-text-four {
+    position: relative;
+    font-size: 25px;
+    top: 29px;
+    left: 10px;
+}
+
+#media-left-text-five {
+    position: relative;
+    font-size: 16px;
+    top: 44px;
+    left: 10px;
+    line-height: 19px;
+}
+
+#media-left-text-six {
+    position: relative;
+    font-size: 25px;
+    top: 29px;
+    left: 10px;
+}
+
+#media-left-text-seven {
+    position: relative;
+    font-size: 16px;
+    top: 44px;
+    left: 10px;
+    line-height: 19px;
+}
+
+#media-left-text-eight {
+    text-align: center;
+    position: relative;
+    top: 13px;
+    color: white;
+}
+
+.media-right-container {
+    width: 682px;
+    height: 1286px;
+    float: right;
+    position: relative;
+    /*bottom: 1622px;*/
+    right: 209px;
+}
+
+.media-right-video {
+    width: 100%;
+    height: 400px;
+    background-image: url("http://bit.ly/2mXlTCU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-color: #074b23;
+}
+
+.videos {
+    background-color: white;
+    width: 69px;
+    height: 40px;
+    position: relative;
+    top: 46px;
+    border-style: solid;
+    border-left: none;
+    border-color: #074b23;
+    right: 3px;
+}
+
+#videos-one {
+    text-align: center;
+    position: relative;
+    top: 12px;
+    color: #074b23;
+}
+
+.text-in-video {
+    width: 100%;
+    height: 144px;
+    background-color: rgba(1, 1, 1, 0.7);
+    position: relative;
+    top: 212px;
+}
+
+.video-text-width {
+    width: 623px;
+    white-space: nowrap;
+    position: relative;
+    margin: auto;
+    top: 39px;
+}
+
+#video-text {
+    font-size: 28px;
+    color: white;
+}
+
+#video-text-one {
+    color: white;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+.media-right-social {
+    width: 49%;
+    height: 380px;
+}
+
+.social-load {
+    position: relative;
+    width: 200px;
+    height: 36px;
+    left: 241px;
+    top: 19px;
+    background-color: #074b23;
+    color: white;
+}
+
+#mediaOne {
+    background-image: url("http://bit.ly/2mAzoot");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mediaTwo {
+    background-color: #074b23;
+}
+
+#mediaThree {
+    background-image: url("http://bit.ly/2mauFyr");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mediaFour {
+    background-image: url("http://bit.ly/2mD5j8L");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#social-text {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}

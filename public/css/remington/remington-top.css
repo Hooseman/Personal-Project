@@ -1,0 +1,465 @@
+.ListOfRifles {
+    width: 100vw;
+    height: 550px;
+    background-color: white;
+    position: fixed;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.ListOfRiflesOne {
+  width: 778px;
+    height: 550px;
+    background-color: blue;
+}
+
+.ListOfRiflesTwo {
+  width: 100vw;
+  height: 550px;
+  background-color: tan;
+}
+
+#bolt-one {
+  display: flex;
+}
+
+.bolt-second {
+  height: 10px;
+    position: relative;
+    left: 105px;
+}
+
+#rifle-text {
+  left: 92px;
+    position: relative;
+    font-size: 28px;
+    transform: scale(1, 1.8);
+    top: 42px;
+    border-bottom: black;
+    border-bottom-style: solid;
+    width: 100px;
+    border-width: thin;
+}
+
+#text-in-rifle-list {
+  position: relative;
+    left: 93px;
+    line-height: 35px;
+    top: 71px;
+}
+
+.mySlides {
+    /*display: none;*/
+}
+
+.slideone {
+    background-image: url("http://bit.ly/2ml9kyD");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 769px;
+    background-position-x: -303px;
+    position: relative;
+    top: 12px;
+}
+
+#slideone-logo {
+    background-image: url("http://bit.ly/2mpgGQB");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 156px;
+    height: 86px;
+    position: relative;
+    margin: auto;
+    line-height: 100px;
+    bottom: 9px;
+}
+
+#slideone-text {
+    font-size: 40px;
+    letter-spacing: -1px;
+    transform: scale(1, 1.8);
+    position: relative;
+    top: 31px;
+    font-weight: 800;
+}
+
+#slideone-textone {
+    position: relative;
+    top: 66px;
+    font-size: 20px;
+}
+
+#slideone-texttwo {
+    background-color: white;
+    color: black;
+    line-height: 44px;
+    position: relative;
+    top: 91px;
+    width: 250px;
+    margin: auto;
+}
+
+#slideone-logo-one {
+  background-image: url(http://bit.ly/2n8OvaI);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 156px;
+  height: 86px;
+  position: relative;
+  margin: auto;
+  line-height: 100px;
+  top: 391px;
+}
+
+#slideone-text-one {
+  font-size: 40px;
+  letter-spacing: -1px;
+  transform: scale(1, 1.8);
+  position: relative;
+  top: 257px;
+  font-weight: 800;
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#slideone-textone-one {
+  position: relative;
+  top: 310px;
+  font-size: 18px;
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#slideone-texttwo-one {
+  background-color: white;
+  color: black;
+  line-height: 44px;
+  position: relative;
+  top: 332px;
+  width: 250px;
+  margin: auto;
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#slideone-text-two {
+  font-size: 40px;
+  letter-spacing: -1px;
+  transform: scale(1, 1.8);
+  position: relative;
+  top: 445px;
+  font-weight: 800;
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#slideone-textone-two {
+  position: relative;
+  top: 478px;
+  font-size: 18px;
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#slideone-texttwo-two {
+  background-color: white;
+  color: black;
+  line-height: 44px;
+  position: relative;
+  top: 500px;
+  width: 250px;
+  margin: auto;
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#slideone-logo-two {
+  background-image: url(http://bit.ly/2nT70zY);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 296px;
+    height: 86px;
+    position: relative;
+    margin: auto;
+    line-height: 100px;
+    top: 360px;
+}
+
+#slideone-text-three {
+  font-size: 40px;
+    letter-spacing: -1px;
+    transform: scale(1, 1.8);
+    position: relative;
+    top: 388px;
+    font-weight: 800;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#slideone-textone-three {
+  position: relative;
+    top: 413px;
+    font-size: 18px;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    width: 477px;
+    margin: auto;
+}
+
+#slideone-texttwo-three {
+  background-color: white;
+color: black;
+line-height: 44px;
+position: relative;
+top: 435px;
+width: 483px;
+margin: auto;
+font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+height: 58px;
+}
+
+.slidetwo {
+    background-image: url("http://bit.ly/2mTNPYQ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    background-position-x: -273px;
+}
+
+.slidethree {
+    background-image: url("http://bit.ly/2mDqRmg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    background-position-x: -237px;
+}
+
+.slidefour {
+    background-image: url("http://bit.ly/2mFsDoW");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    background-position-x: 0px;
+}
+
+.slidefive {
+    background-image: url("http://bit.ly/2mkFcU4");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    background-position-x: 0px;
+    background-position-y: 31px;
+}
+
+.slidesix {
+    background-image: url("http://bit.ly/2mlaiKW");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    background-position-x: -237px;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    width: 100vw;
+    bottom: 125px;
+    z-index: -1;
+    height: 500px;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 324px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    border-radius: 50%;
+    border-width: 2px;
+    display: inline-block;
+    border-color: white;
+    border-style: solid;
+    margin-right: 10px;
+    position: relative;
+    top: 108px;
+}
+
+.active {
+    background-color: white;
+}
+
+
+/*start of second carosel*/
+
+.center {
+    width: 653px;
+    height: 318px;
+    margin: auto;
+    position: relative;
+    top: 213px;
+}
+
+.mySlideClassName {
+    margin-right: 10px;
+    position: absolute;
+    width: 296px !important;
+    height: 351px !important;
+    margin-right: 19px;
+    border-style: solid !important;
+    border-color: black !important;
+    border: black;
+    border-width: thin;
+}
+
+#flickityImageText {
+    position: relative;
+    top: 280px;
+    left: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.flickityPrice {
+    width: 296px;
+    height: 48px;
+    /*background-color: red;*/
+    position: relative;
+    top: 88px;
+    border-top-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: thin;
+}
+
+.flickity-price-spacing {
+  display: flex;
+}
+
+.flickity-price-size {
+  font-size: 30px;
+position: relative;
+top: 3px;
+left: 13px;
+}
+
+.flickity-price-size-two {
+  position: relative;
+left: 14px;
+top: 8px;
+}
+
+.flickity-price-msrp-size {
+  text-align: right;
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+    left: 7px;
+}
+
+.flickityImage {
+    background-image: url("http://bit.ly/2lXVAxw");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 296px;
+    height: 200px;
+}
+
+.view {
+    width: 72px;
+    height: 47px;
+    background-color: red;
+    position: relative;
+    bottom: 38px;
+    left: 224px;
+    text-align: center;
+}
+
+.viewTwo {
+    height: 47px;
+    background-color: red;
+    position: relative;
+    bottom: 38px;
+    width: 72px;
+    left: 225px;
+}
+
+#centerView {
+    position: relative;
+    top: 16px;
+    color: white;
+    text-align: center;
+}
+
+.flickityImageOne {
+    background-image: url("http://bit.ly/2mpwCm8");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 283px;
+    height: 200px;
+}
+
+.flickityImageTwo {
+    background-image: url("http://bit.ly/2nCsj7Z");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 296px;
+    height: 200px;
+}
+
+.flickityImageThree {
+    background-image: url("http://bit.ly/2nap4bp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 291px;
+    height: 200px;
+}
+
+.flickity-viewport {
+    overflow: hidden;
+    height: 357px;
+    width: 948px;
+    left: -143px;
+    position: relative;
+    bottom: 42px;
+}
+
+.flickity-slider {
+    position: relative !important;
+    width: 646px !important;
+    height: 300px !important;
+    left: 147px !important;
+    transform: translateX(29.56%);
+    display: flex;
+    position: relative;
+}
+
+.flickity-page-dots .dot {
+    display: none !important;
+}
+
+.flickity-prev-next-button.previous {
+    left: -193px ;
+}
+
+.flickity-prev-next-button.next {
+    right: -193px ;
+}
+
+.flickity-prev-next-button {
+    position: absolute;
+    top: 34% ;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    background: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

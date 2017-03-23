@@ -1,0 +1,120 @@
+<div class="dropdown-wrapper">
+    <div class="dropdown-container">
+<rifle-template></rifle-template>
+
+
+        <ul class="dropdown-ul">
+            <!-- Rifles -->
+            <li class="dropdown-ul-li">
+                <div class="dropdown-ul-li-nav2">
+                    <a ui-sref="rifles" class="dropdown-ul-li-nav2-a">
+                        <p id="dropdown-ul-li-nav2-text">Rifles</p>
+                    </a>
+
+                    <ul class="nav2-ul">
+                        <!-- Bolt-Action -->
+                        <li class="nav2-ul-li" ng-init=>
+                            <div class="nav2-ul-li-wrapper">
+                                <div ng-click="clickBoltAction();clickRifleTemplate(1)">
+                                    <a class="nav2-ul-li-wrapper-a">Bolt-Action</a>
+                                </div>
+                            </div>
+                            <div class="nav2-ul-li-content" ng-if="showBoltAction">
+                                <ul class="nav2-ul">
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickRifleTemplate(1)"><span>Model 700</span></a>
+                                    </li>
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickRifleTemplate(2)"><span>Model Seven</span></a>
+                                    </li>
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickRifleTemplate(3)"><span>Model 783</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- Modern Sporting -->
+                        <li class="nav2-ul-li">
+                            <div class="nav2-ul-li-wrapper">
+                                <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickModernSporting(); clickRifleTemplate(4)"><span>MODERN SPORTING</span></a>
+                            </div>
+                            <div class="nav2-ul-li-content" ng-if="showModernSporting">
+                                <ul class="nav2-ul">
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickRifleTemplate(4)"><span>Model R-15</span></a>
+                                    </li>
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a"ng-click="clickRifleTemplate(5)"><span>Model R-25 Gll</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- Muzzleloading -->
+                        <li class="nav2-ul-li">
+                            <div class="nav2-ul-li-wrapper">
+                                <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickMuzzleLoading();clickRifleTemplate(6)"><span>MUZZLELOADING</span></a>
+                            </div>
+                            <div class="nav2-ul-li-content" ng-if="showMuzzleLoading">
+                                <ul class="nav2-ul">
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a"ng-click="clickRifleTemplate(6)"><span>Model 700 ULTIMATE</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- Pump Action -->
+                        <li class="nav2-ul-li">
+                            <div class="nav2-ul-li-wrapper">
+                                <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickPumpaction();clickRifleTemplate(7)"><span>PUMP-ACTION</span></a>
+                            </div>
+                            <div class="nav2-ul-li-content" ng-if="showPumpAction">
+                                <ul class="nav2-ul">
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a"ng-click="clickRifleTemplate(7)"><span>Model 7600</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- Rimfire -->
+                        <li class="nav2-ul-li">
+                            <div class="nav2-ul-li-wrapper">
+                                <a href="#" class="nav2-ul-li-wrapper-a" ng-click="clickRimfire();clickRifleTemplate(8)"><span>RIMFIRE</span></a>
+                            </div>
+                            <div class="nav2-ul-li-content" ng-if="showRimFire">
+                                <ul class="nav2-ul ">
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a"ng-click="clickRifleTemplate(8)"><span>Model 597</span></a>
+                                    </li>
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a"ng-click="clickRifleTemplate(9)"><span>Model 552 SPEEDMASTER</span></a>
+                                    </li>
+                                    <li class="nav2-ul-li">
+                                        <a href="#" class="nav2-ul-li-wrapper-a"ng-click="clickRifleTemplate(10)"><span>Model 572 FEILDMASTER</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+
+            <!-- Shotguns -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Handguns -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Ammo -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Other Products -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Custom Shop -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Remington Country -->
+            <li class="dropdown-ul-li"></li>
+            <!-- Shop -->
+            <li class="dropdown-ul-li"></li>
+        </ul>
+
+
+    </div>
+</div>

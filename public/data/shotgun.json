@@ -1,0 +1,59 @@
+[
+  {
+  "id": 1,
+  "name": "MODEL 11-87",
+  "class": "AUTOLOADING",
+  "description":"FEATURING THE MODEL 11-87™ SPORTSMAN® BLACK SYNTHETIC",
+  "modelNum": 4,
+  "dollar": 704,
+  "cents": 41,
+  "imageurl": "http://bit.ly/2nnLgOU",
+  "weaponType": 2
+},
+{
+  "id": 2,
+  "name": "MODEL 1100",
+  "class": "AUTOLOADING",
+  "description":"FEATURING THE MODEL 1100 CLASSIC TRAP",
+  "modelNum": 5,
+  "dollar": 1334,
+  "cents": "",
+  "imageurl": "http://bit.ly/2mR509L",
+  "weaponType": 2
+},
+  {
+  "id": 3,
+  "name": "V3 FIELD SPORT",
+  "class": "AUTOLOADING",
+  "description":"FEATURING THE V3 FIELD SPORT WALNUT",
+  "modelNum": 4,
+  "dollar": 995,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nnOnX1",
+  "weaponType": 2
+},
+{
+  "id": 4,
+  "name": "VERSA MAX",
+  "class": "AUTOLOADING",
+  "description":"FEATURING THE VERSA MAX SYNTHETIC",
+  "modelNum": 9,
+  "dollar": 1456,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nCR1bW",
+  "weaponType": 2
+},
+{
+  "id": 5,
+  "name": "MODEL 870",
+  "class": "PUMP ACTION",
+  "description":"FEATURING THE MODEL 870 HARDWOOD HOME DEFENSE",
+  "modelNum": 25,
+  "dollar": 420,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nnPNka",
+  "weaponType": 2
+}
+
+
+]

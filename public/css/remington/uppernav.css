@@ -1,0 +1,433 @@
+/*<style>@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>*/
+
+body {
+    /*margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;*/
+}
+
+nav-bar {
+    position: fixed;
+    z-index: 9999;
+}
+
+.sterling {
+  background-color: black;
+}
+
+.color {
+    width: 100vw;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    bottom: 8px;
+}
+
+.topPageOne {
+    display: flex;
+    justify-content: space-between;
+    width: 611px;
+    float: left;
+    font-size: 12px;
+    list-style-type: none;
+    position: relative;
+    left: 533px;
+    bottom: -16px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search {
+    left: 606px;
+    width: 221px;
+    background-color: gray;
+    border: none;
+    position: relative;
+    height: 33px;
+    margin-bottom: -2px;
+}
+
+.fa {
+    position: relative;
+    left: 389px;
+    bottom: -7px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.bottomNav {
+    position: relative;
+}
+
+.remington-top {
+    font-size: 40px;
+    margin-left: 102px;
+    position: relative;
+    top: 7px;
+}
+
+.header {
+    width: 927px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 14px;
+    position: relative;
+    right: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.other-products {
+    width: 100px;
+    text-align: center;
+}
+
+#topnavmargin {
+    width: 900px;
+    position: relative;
+    right: 14px;
+}
+
+#topnavmarginone {
+    width: 900px;
+    position: relative;
+    right: 48px;
+}
+
+#topnavmargintwo {
+    position: relative;
+    right: 65px;
+}
+
+#topnavmarginthree {
+    position: relative;
+    right: 38px;
+}
+
+#topnavmarginfour {
+    position: relative;
+    right: 8px;
+}
+
+#topnavmarginfive {
+    position: relative;
+    left: 43px;
+}
+
+#rifle_one {
+    position: relative;
+    right: 27px;
+}
+
+.navHover:hover {
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+#shotgun_one {
+    margin-right: 20px;
+    position: relative;
+    right: 10px;
+}
+
+#handgun_one {
+    margin-right: 20px;
+    position: relative;
+    right: 18px;
+}
+
+#ammunition_one {
+    margin-right: 20px;
+    position: relative;
+    right: 10px;
+}
+
+#otherproducts_one {
+    margin-right: 20px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+#customshop_one {
+    margin-right: 20px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+#remingtoncountry_one {
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+#shop_one {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+/* Dropdown Right Side */
+
+.dropdown-wrapper {
+    z-index: 150;
+    overflow: hidden;
+    position: fixed;
+    /*top: 100px;*/
+    width: 100%;
+    max-height: 550px;
+    background: #fff;
+    box-shadow: inset 0 25px 25px -25px #222, inset 0 -25px 25px -25px #222;
+    /*-webkit-transition: top 0.35s cubic-bezier(0.165,0.84,0.44,1) 0.35s;*/
+    transition: top 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) 0.35s;
+    top: 135px;
+    height: 450px;
+}
+
+.dropdown-wrapper a {
+    color: #808080;
+    position: relative;
+    top: 5px;
+}
+
+.dropdown-container {
+    position: relative;
+    margin: -100% auto 0;
+    padding: 40px 50px 65px;
+    width: 100%;
+    max-width: 1280px;
+    text-transform: uppercase;
+    transition: margin-top 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    margin-top: 0;
+    padding-right: 50px;
+}
+
+.dropdown-content {
+    position: relative;
+    width: calc(100% - 418px);
+    float: right;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    display: none;
+}
+
+.dropdown-content-h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font: normal 65px/1 "Knockout 47 A", "Knockout 47 B", Geneva, Tahoma, Verdana, sans-serif;
+    color: #808080;
+    text-transform: uppercase;
+    font-size: 32px;
+    transform: scale(1, 1.8);
+    font-weight: 900;
+}
+
+.dropdown-content-a {
+    background: transparent;
+    cursor: pointer;
+    color: #074b23;
+    display: block;
+}
+
+.dropdown-content-a-div1 {
+    color: #808080;
+    margin: 0 0 10px;
+    display: block;
+    position: relative;
+    top: 11px;
+}
+
+.dropdown-content-a-div2 {
+    position: relative;
+    z-index: 1;
+    min-height: 125px;
+    top: 18px;
+    height: 200px;
+}
+
+.dropdown-content-div {
+    position: relative;
+    font-size: 14px;
+    margin-top: -90px;
+}
+
+.dropdown-content-div-description {
+    position: relative;
+    z-index: 3;
+    margin-bottom: 2%;
+    text-transform: none;
+    margin-top: -4%;
+}
+
+.div3-description-msrp {
+    display: block;
+    margin-bottom: 2%;
+    font: 300 61px/1 Tahoma, Verdana, sans-serif;
+    color: #808080;
+    text-align: right;
+}
+
+.div3-description-msrp small {
+    display: block;
+    margin-bottom: 2%;
+    font: 300 61px/1 Tahoma, Verdana, sans-serif;
+    color: #808080;
+    text-align: right;
+    font-size: 15px;
+    transform: scale(1, 1.8);
+    font-weight: 800;
+}
+
+#div3-description-msrp-smalltext {
+    font-size: 30px;
+    font-weight: 500;
+    transform: scale(1, 1.8);
+}
+
+.div3-description-msrp sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: sub;
+    top: -0.8em;
+    font-size: 0.6em;
+}
+
+.div3-description-btn {
+    margin-left: 35%;
+    margin-bottom: 25px;
+    min-width: 61%;
+    float: right;
+    background-color: #808080;
+}
+
+#div3-description-btn-text {
+    color: white;
+    text-align: center;
+}
+
+.dropdown-content-div-buttons {
+    text-align: justify;
+    position: relative;
+    top: 5px;
+}
+
+.div3-buttons-green {
+    display: table;
+    float: right;
+    padding: 0;
+    height: 50px;
+    width: 30%;
+    margin-left: 1%;
+    background-color: #074b23;
+    text-align: center;
+}
+
+#green-button {
+    position: relative;
+    top: 17px;
+    color: white;
+}
+
+
+/* Dropdown Left (UL List) */
+
+.dropdown-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown-ul-li {
+    margin: 0;
+}
+
+.dropdown-ul-li-nav2 {}
+
+
+#dropdown-ul-li-nav2-text {
+    font-size: 42px;
+    border-bottom-style: solid;
+}
+
+.dropdown-ul-li-nav2-a {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font: normal 65px/1 "Knockout 47 A", "Knockout 47 B", Geneva, Tahoma, Verdana, sans-serif;
+    color: #808080;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    position: relative;
+}
+
+.nav2-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav2-ul-li {
+    margin: 0;
+}
+
+.nav2-ul-li:hover {
+  text-decoration: underline;
+}
+
+.nav2-ul-li-wrapper {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.nav2-ul-li-wrapper:hover {
+    text-decoration: underline;
+}
+
+.nav2-ul-li-wrapper-a {
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0 10px;
+    font-family: "AvenirNextLTW01-Medium", Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+    color: #b2b2b2;
+    letter-spacing: -0.5px;
+    color: #444;
+}
+
+.nav2-ul-li-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: block;
+}
+
+.nav2-ul-li-flex {}
+
+.nav2-ul-li-a {}
+
+.is-active {
+    display: block;
+}
