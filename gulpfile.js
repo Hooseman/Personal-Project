@@ -19,7 +19,7 @@ var CacheBuster = require('gulp-cachebust');
 var cachebust = new CacheBuster();
 
 const paths = {
-  jsSource: ['./public/js/**/*.js', './public/js/*.js'],
+  jsSource: ['./public/js/app.js','./public/js/**/*.js', './public/js/*.js'],
   cssFiles: './public/**/**/*.css',
   scssFiles: './public/**/**/*.scss',
   dist: './dist',

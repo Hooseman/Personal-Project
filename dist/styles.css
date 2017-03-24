@@ -85,649 +85,6 @@ hr {
 input, select {
   vertical-align: middle; }
 
-.bg-image-modernrifles {
-  background-image: url("http://bit.ly/2nXaalk");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 723px;
-  width: 100vw;
-  z-index: -1; }
-
-.div-modern-wrapper {
-  width: 100%;
-  height: 750px; }
-
-.div2-modern-wrapper-inside {
-  width: 1100px;
-  height: 700px;
-  margin: auto; }
-
-.div-modern-top-wrapper {
-  width: 100%;
-  height: 100px; }
-
-.div-modern-bottom-wrapper {
-  display: flex; }
-
-.div-modern-inside-left {
-  width: 32%;
-  height: 525px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around; }
-
-.div-modern-inside-right {
-  width: 89%;
-  height: 410px;
-  border-left-style: solid;
-  position: relative;
-  top: 43px;
-  border-left-width: thin; }
-
-.div-modern-inside-left-find-one {
-  width: 264px;
-  height: 40px;
-  background-color: #b2b2b2; }
-
-.div-modern-inside-left-find {
-  width: 264px;
-  height: 35px;
-  background-color: #555; }
-
-#div-modern-inside-left-find-one {
-  color: white;
-  position: relative;
-  top: 10px;
-  text-align: center; }
-
-#div-modern-inside-left-find-text {
-  color: white;
-  position: relative;
-  top: 10px;
-  margin-left: 7px;
-  font-size: 14px; }
-
-.div-modern-inside-left-find-boxes {
-  width: 264px;
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
-.div-modern-inside-left-find-box1 {
-  width: 100px;
-  height: 35px;
-  background-color: #074b23; }
-
-.div-modern-inside-left-find-box2 {
-  width: 100px;
-  height: 35px;
-  background-color: #074b23; }
-
-#box1 {
-  text-align: center;
-  color: white;
-  position: relative;
-  top: 10px;
-  font-size: 13px; }
-
-#box2 {
-  text-align: center;
-  color: white;
-  position: relative;
-  top: 10px;
-  font-size: 13px; }
-
-.div-modern-inside-right-leftside {
-  width: 100%;
-  height: 489px;
-  position: relative;
-  top: 73px;
-  display: flex; }
-
-.div-modern-inside-right-leftside-contain {
-  width: 379px;
-  height: 100%; }
-
-#div-modern-inside-right-leftside-text-one {
-  font-size: 23px;
-  transform: scale(1, 1.5);
-  font: normal 20px/1 "Knockout 47 A", "Knockout 47 B", Geneva, Tahoma, Verdana, sans-serif;
-  position: relative;
-  top: -41px;
-  margin-left: 22px;
-  color: #555;
-  font-weight: 900; }
-
-#div-modern-inside-right-leftside-text {
-  position: relative;
-  top: -3px;
-  margin-left: 22px;
-  color: #555; }
-
-.div-modern-inside-right-rightside {
-  width: 350px;
-  height: 200px;
-  background-image: url("http://bit.ly/2o0z6sq");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 51px;
-  position: relative;
-  top: -41px; }
-
-/* start of the modern rifle gun list */
-.div-modern-rifle-wrapper {
-  width: 100%;
-  height: 300px;
-  display: flex;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-width: thin; }
-
-.div-modern-rifle-wrapper-one {
-  width: 100%;
-  height: 383px;
-  display: flex;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-width: thin; }
-
-.div-modern-rifle-contain {
-  width: 50%;
-  height: 400px;
-  position: relative;
-  top: 70px; }
-
-.div-p-modern-rifle-text {
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
-  transform: scale(1, 1.8);
-  font-weight: 900;
-  font-size: 19px;
-  margin-left: 170px;
-  color: #555555; }
-
-.div-modern-rifle-image {
-  background-image: url(http://bit.ly/2nP1aPY);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 504px;
-  height: 80px;
-  margin-left: 170px;
-  position: relative;
-  top: 30px; }
-
-.div-modern-rifle-image-one {
-  background-image: url("http://bit.ly/2nTnjNd");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 504px;
-  height: 80px;
-  margin-left: 170px;
-  position: relative;
-  top: 30px; }
-
-.div-modern-rifle-image-two {
-  background-image: url("http://bit.ly/2nThcZn");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 504px;
-  height: 80px;
-  margin-left: 170px;
-  position: relative;
-  top: 30px; }
-
-.div-modern-rifle-right-wrapper {
-  width: 50%;
-  height: 400px;
-  position: relative;
-  top: 70px; }
-
-.div-modern-rifle-right-upper-text {
-  width: 538px;
-  line-height: 21px;
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
-  font-size: 14px;
-  color: #555555; }
-
-.div-modern-rifle-right-bottom-wrapper {
-  border-style: solid;
-  position: relative;
-  top: 32px;
-  border-width: thin;
-  width: 520px; }
-
-.div-modern-rifle-right-bottom-wrapper-left {
-  display: flex; }
-
-.div-modern-rifle-right-bottom-contain-left-one {
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif; }
-
-.div-modern-rifle-right-bottom-text-one {
-  position: relative;
-  left: 33px; }
-
-.div-modern-rifle-right-bottom-text-two {
-  font-size: 30px; }
-
-.div-modern-rifle-right-bottom-contain-left-two {
-  position: relative;
-  left: 30px;
-  top: 0px; }
-
-.div-modern-rifle-right-bottom-contain-right {
-  width: 70px;
-  height: 42px;
-  background-color: #074b23;
-  position: relative;
-  left: 263px;
-  color: white; }
-
-#div-modern-rifle-right-bottom-text-two-text {
-  font-size: 20px;
-  position: relative;
-  bottom: 5px; }
-
-#contain-right-one {
-  text-align: center;
-  position: relative;
-  top: 10px; }
-
-/* second in gun list */
-.div-modern-rifle-wrapper-second {
-  width: 100%;
-  height: 300px;
-  display: flex;
-  flex-direction: row-reverse;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-width: thin; }
-
-.div-modern-rifle-wrapper-second-one {
-  width: 100%;
-  height: 266px;
-  display: flex;
-  flex-direction: row-reverse;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-width: thin; }
-
-.div-modern-rifle-contain-second {
-  width: 50%;
-  height: 400px;
-  position: relative;
-  top: 70px; }
-
-.div-p-modern-rifle-text-second {
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
-  transform: scale(1, 1.8);
-  font-weight: 900;
-  font-size: 19px;
-  margin-right: 170px;
-  color: #555555; }
-
-.div-modern-rifle-image-second {
-  background-image: url("http://bit.ly/2n56sXF");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 504px;
-  height: 80px;
-  margin-right: 170px;
-  position: relative;
-  top: 30px; }
-
-.div-modern-rifle-image-second-one {
-  background-image: url("http://bit.ly/2nDZRX5");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 504px;
-  height: 80px;
-  margin-right: 170px;
-  position: relative;
-  top: 30px; }
-
-.div-modern-rifle-image-second-two {
-  background-image: url("http://bit.ly/2nThYFs");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 504px;
-  height: 93px;
-  margin-right: 170px;
-  position: relative;
-  top: 30px; }
-
-.div-modern-rifle-right-wrapper-second {
-  width: 50%;
-  height: 400px;
-  position: relative;
-  top: 70px; }
-
-.div-modern-rifle-right-upper-text-second {
-  width: 538px;
-  line-height: 21px;
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
-  font-size: 14px;
-  margin-left: 165px;
-  color: #555555; }
-
-.div-modern-rifle-right-bottom-wrapper-second {
-  border-style: solid;
-  position: relative;
-  top: 32px;
-  border-width: thin;
-  width: 520px;
-  margin-left: 165px; }
-
-.div-modern-rifle-right-bottom-wrapper-left-second {
-  display: flex; }
-
-.div-modern-rifle-right-bottom-contain-left-one-second {
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif; }
-
-.div-modern-rifle-right-bottom-text-one-second {
-  position: relative;
-  left: 33px; }
-
-.div-modern-rifle-right-bottom-text-two-second {
-  font-size: 30px; }
-
-.div-modern-rifle-right-bottom-contain-left-two-second {
-  position: relative;
-  left: 30px;
-  top: 0px; }
-
-.div-modern-rifle-right-bottom-contain-right-second {
-  width: 70px;
-  height: 42px;
-  background-color: #074b23;
-  position: relative;
-  left: 263px;
-  color: white; }
-
-#div-modern-rifle-right-bottom-text-two-text-second {
-  font-size: 20px;
-  position: relative;
-  bottom: 5px; }
-
-.bg-image {
-  background-image: url("http://bit.ly/2n6e8eR");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 723px;
-  width: 100vw;
-  z-index: -1; }
-
-.text-in-bg-image {
-  width: 700px;
-  color: white;
-  margin: auto;
-  text-align: center;
-  position: relative;
-  top: 277px;
-  height: 194px; }
-
-#rifles-text-one {
-  position: relative;
-  font-size: 48px;
-  transform: scale(1, 1.8);
-  font-weight: 900; }
-
-#rifles-text-two {
-  position: relative;
-  top: 41px;
-  font-size: 20px; }
-
-.passion-wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
-  height: 40px;
-  background-color: black;
-  position: relative;
-  top: 60px;
-  justify-content: space-around; }
-
-.currentPage {
-  width: 150px;
-  height: 38px;
-  background-color: blue;
-  position: relative;
-  left: 92px; }
-
-.rifleOrPassion {
-  width: 308px;
-  height: 38px;
-  background-color: red;
-  position: relative;
-  left: 39px; }
-
-.modelSelect {
-  width: 234px;
-  height: 38px;
-  background-color: yellow;
-  position: relative;
-  right: 94px; }
-
-.rifleGameTiles {
-  width: 100vw;
-  height: 830px; }
-
-.rifleGameTiles-one {
-  width: 100vw;
-  height: 830px;
-  display: none; }
-
-.rifletileFirstRow {
-  display: flex;
-  height: 228px;
-  width: 992px;
-  margin: auto;
-  position: relative;
-  justify-content: space-between;
-  top: 106px; }
-
-.rifletileLastRow {
-  isplay: flex;
-  height: 199px;
-  width: 900px;
-  margin: auto;
-  position: relative;
-  top: 217px !important; }
-
-#rifletile {
-  width: 300px;
-  height: 300px;
-  position: relative;
-  top: 25px; }
-
-#rifletile:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  -moz-transition: all .3s linear;
-  -webkit-transition: all .3s linear;
-  -ms-transition: all .3s linear;
-  -o-transition: all .3s linear;
-  transition: all .3s linear;
-  mix-blend-mode: hard-light; }
-
-#rifletile:hover:before {
-  background: #074b23; }
-
-#rifletileTwo {
-  width: 300px;
-  height: 300px;
-  position: relative;
-  top: 25px;
-  margin-right: 47px;
-  left: 131px; }
-
-#rifletileTwo:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  -moz-transition: all .3s linear;
-  -webkit-transition: all .3s linear;
-  -ms-transition: all .3s linear;
-  -o-transition: all .3s linear;
-  transition: all .3s linear;
-  mix-blend-mode: hard-light; }
-
-#rifletileTwo:hover:before {
-  background: #074b23; }
-
-#rifletileImageText {
-  text-align: center;
-  color: white;
-  position: relative;
-  top: 137px;
-  font-size: 22px;
-  transform: scale(1, 1.8);
-  font-weight: 800; }
-
-.rifletileImageOne {
-  background-image: url("http://bit.ly/2nHZcB9");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.rifletileImageTwo {
-  background-image: url("http://bit.ly/2mGeFQl");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.rifletileImageThree {
-  background-image: url("http://bit.ly/2n4YTSD");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.rifletileImageFour {
-  background-image: url("http://bit.ly/2mYsPy3");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.rifletileImageFive {
-  background-image: url("http://bit.ly/2n56qAP");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.rifletileLastRow {
-  display: flex;
-  height: 199px;
-  width: 900px;
-  margin: auto;
-  position: relative;
-  top: 143px; }
-
-.below-rifle-tile {
-  width: 100vw;
-  height: 467px;
-  display: flex;
-  justify-content: space-around;
-  color: #286017; }
-
-.below-rifle-left {
-  width: 617px;
-  height: 412px;
-  background-color: yellow;
-  border-right-style: solid;
-  border-right-color: black; }
-
-.below-rifle-left-text {
-  margin-bottom: 25px; }
-
-#below-rifle-text-one {
-  font-size: 25px; }
-
-#block {
-  width: 580px; }
-
-.below-rifle-right {
-  width: 580px;
-  height: 412px;
-  background-color: blue;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.underFlicky-rifle {
-  background-image: url(http://bit.ly/2m2HYkx);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 416px;
-  background-position-y: -160px;
-  position: relative;
-  top: 0px;
-  display: flex;
-  justify-content: center; }
-
-.below-rifle-tile-one {
-  width: 100vw;
-  height: 800px;
-  display: flex;
-  justify-content: space-between; }
-
-.below-rifle-left-one {
-  width: 617px;
-  height: 715px;
-  border-right-style: solid;
-  border-right-color: black;
-  position: relative;
-  left: 199px;
-  top: 68px;
-  color: #286017; }
-
-.below-rifle-right-one {
-  width: 580px;
-  height: 657px;
-  position: relative;
-  top: 68px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
-
-.below-rifle-right-one-images {
-  background-image: url("http://bit.ly/2n0K3us");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 400px;
-  height: 200px; }
-
-.below-rifle-right-two-images {
-  background-image: url("http://bit.ly/2nDlFlP");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 400px;
-  height: 200px; }
-
-.below-rifle-right-three-images {
-  background-image: url("http://bit.ly/2mMK0l3");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 400px;
-  height: 200px; }
-
-#below-rifle-text-two {
-  font-size: 31px;
-  transform: scale(1, 2.4);
-  font-weight: 800; }
-
-#below-rifle-text-two {
-  position: relative;
-  top: 5px; }
-
-.below-rifle-left-text-one {
-  margin-bottom: 36px;
-  position: relative;
-  top: 19px; }
-
 .bottomfooter-spacing {
   width: 100vw;
   height: 600px;
@@ -2282,6 +1639,649 @@ a:-webkit-any-link {
 .is-active {
   display: block; }
 
+.bg-image-modernrifles {
+  background-image: url("http://bit.ly/2nXaalk");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 723px;
+  width: 100vw;
+  z-index: -1; }
+
+.div-modern-wrapper {
+  width: 100%;
+  height: 750px; }
+
+.div2-modern-wrapper-inside {
+  width: 1100px;
+  height: 700px;
+  margin: auto; }
+
+.div-modern-top-wrapper {
+  width: 100%;
+  height: 100px; }
+
+.div-modern-bottom-wrapper {
+  display: flex; }
+
+.div-modern-inside-left {
+  width: 32%;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.div-modern-inside-right {
+  width: 89%;
+  height: 410px;
+  border-left-style: solid;
+  position: relative;
+  top: 43px;
+  border-left-width: thin; }
+
+.div-modern-inside-left-find-one {
+  width: 264px;
+  height: 40px;
+  background-color: #b2b2b2; }
+
+.div-modern-inside-left-find {
+  width: 264px;
+  height: 35px;
+  background-color: #555; }
+
+#div-modern-inside-left-find-one {
+  color: white;
+  position: relative;
+  top: 10px;
+  text-align: center; }
+
+#div-modern-inside-left-find-text {
+  color: white;
+  position: relative;
+  top: 10px;
+  margin-left: 7px;
+  font-size: 14px; }
+
+.div-modern-inside-left-find-boxes {
+  width: 264px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.div-modern-inside-left-find-box1 {
+  width: 100px;
+  height: 35px;
+  background-color: #074b23; }
+
+.div-modern-inside-left-find-box2 {
+  width: 100px;
+  height: 35px;
+  background-color: #074b23; }
+
+#box1 {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 10px;
+  font-size: 13px; }
+
+#box2 {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 10px;
+  font-size: 13px; }
+
+.div-modern-inside-right-leftside {
+  width: 100%;
+  height: 489px;
+  position: relative;
+  top: 73px;
+  display: flex; }
+
+.div-modern-inside-right-leftside-contain {
+  width: 379px;
+  height: 100%; }
+
+#div-modern-inside-right-leftside-text-one {
+  font-size: 23px;
+  transform: scale(1, 1.5);
+  font: normal 20px/1 "Knockout 47 A", "Knockout 47 B", Geneva, Tahoma, Verdana, sans-serif;
+  position: relative;
+  top: -41px;
+  margin-left: 22px;
+  color: #555;
+  font-weight: 900; }
+
+#div-modern-inside-right-leftside-text {
+  position: relative;
+  top: -3px;
+  margin-left: 22px;
+  color: #555; }
+
+.div-modern-inside-right-rightside {
+  width: 350px;
+  height: 200px;
+  background-image: url("http://bit.ly/2o0z6sq");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 51px;
+  position: relative;
+  top: -41px; }
+
+/* start of the modern rifle gun list */
+.div-modern-rifle-wrapper {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: thin; }
+
+.div-modern-rifle-wrapper-one {
+  width: 100%;
+  height: 383px;
+  display: flex;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: thin; }
+
+.div-modern-rifle-contain {
+  width: 50%;
+  height: 400px;
+  position: relative;
+  top: 70px; }
+
+.div-p-modern-rifle-text {
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+  transform: scale(1, 1.8);
+  font-weight: 900;
+  font-size: 19px;
+  margin-left: 170px;
+  color: #555555; }
+
+.div-modern-rifle-image {
+  background-image: url(http://bit.ly/2nP1aPY);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 504px;
+  height: 80px;
+  margin-left: 170px;
+  position: relative;
+  top: 30px; }
+
+.div-modern-rifle-image-one {
+  background-image: url("http://bit.ly/2nTnjNd");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 504px;
+  height: 80px;
+  margin-left: 170px;
+  position: relative;
+  top: 30px; }
+
+.div-modern-rifle-image-two {
+  background-image: url("http://bit.ly/2nThcZn");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 504px;
+  height: 80px;
+  margin-left: 170px;
+  position: relative;
+  top: 30px; }
+
+.div-modern-rifle-right-wrapper {
+  width: 50%;
+  height: 400px;
+  position: relative;
+  top: 70px; }
+
+.div-modern-rifle-right-upper-text {
+  width: 538px;
+  line-height: 21px;
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+  color: #555555; }
+
+.div-modern-rifle-right-bottom-wrapper {
+  border-style: solid;
+  position: relative;
+  top: 32px;
+  border-width: thin;
+  width: 520px; }
+
+.div-modern-rifle-right-bottom-wrapper-left {
+  display: flex; }
+
+.div-modern-rifle-right-bottom-contain-left-one {
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif; }
+
+.div-modern-rifle-right-bottom-text-one {
+  position: relative;
+  left: 33px; }
+
+.div-modern-rifle-right-bottom-text-two {
+  font-size: 30px; }
+
+.div-modern-rifle-right-bottom-contain-left-two {
+  position: relative;
+  left: 30px;
+  top: 0px; }
+
+.div-modern-rifle-right-bottom-contain-right {
+  width: 70px;
+  height: 42px;
+  background-color: #074b23;
+  position: relative;
+  left: 263px;
+  color: white; }
+
+#div-modern-rifle-right-bottom-text-two-text {
+  font-size: 20px;
+  position: relative;
+  bottom: 5px; }
+
+#contain-right-one {
+  text-align: center;
+  position: relative;
+  top: 10px; }
+
+/* second in gun list */
+.div-modern-rifle-wrapper-second {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: thin; }
+
+.div-modern-rifle-wrapper-second-one {
+  width: 100%;
+  height: 266px;
+  display: flex;
+  flex-direction: row-reverse;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: thin; }
+
+.div-modern-rifle-contain-second {
+  width: 50%;
+  height: 400px;
+  position: relative;
+  top: 70px; }
+
+.div-p-modern-rifle-text-second {
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+  transform: scale(1, 1.8);
+  font-weight: 900;
+  font-size: 19px;
+  margin-right: 170px;
+  color: #555555; }
+
+.div-modern-rifle-image-second {
+  background-image: url("http://bit.ly/2n56sXF");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 504px;
+  height: 80px;
+  margin-right: 170px;
+  position: relative;
+  top: 30px; }
+
+.div-modern-rifle-image-second-one {
+  background-image: url("http://bit.ly/2nDZRX5");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 504px;
+  height: 80px;
+  margin-right: 170px;
+  position: relative;
+  top: 30px; }
+
+.div-modern-rifle-image-second-two {
+  background-image: url("http://bit.ly/2nThYFs");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 504px;
+  height: 93px;
+  margin-right: 170px;
+  position: relative;
+  top: 30px; }
+
+.div-modern-rifle-right-wrapper-second {
+  width: 50%;
+  height: 400px;
+  position: relative;
+  top: 70px; }
+
+.div-modern-rifle-right-upper-text-second {
+  width: 538px;
+  line-height: 21px;
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+  margin-left: 165px;
+  color: #555555; }
+
+.div-modern-rifle-right-bottom-wrapper-second {
+  border-style: solid;
+  position: relative;
+  top: 32px;
+  border-width: thin;
+  width: 520px;
+  margin-left: 165px; }
+
+.div-modern-rifle-right-bottom-wrapper-left-second {
+  display: flex; }
+
+.div-modern-rifle-right-bottom-contain-left-one-second {
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif; }
+
+.div-modern-rifle-right-bottom-text-one-second {
+  position: relative;
+  left: 33px; }
+
+.div-modern-rifle-right-bottom-text-two-second {
+  font-size: 30px; }
+
+.div-modern-rifle-right-bottom-contain-left-two-second {
+  position: relative;
+  left: 30px;
+  top: 0px; }
+
+.div-modern-rifle-right-bottom-contain-right-second {
+  width: 70px;
+  height: 42px;
+  background-color: #074b23;
+  position: relative;
+  left: 263px;
+  color: white; }
+
+#div-modern-rifle-right-bottom-text-two-text-second {
+  font-size: 20px;
+  position: relative;
+  bottom: 5px; }
+
+.bg-image {
+  background-image: url("http://bit.ly/2n6e8eR");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 723px;
+  width: 100vw;
+  z-index: -1; }
+
+.text-in-bg-image {
+  width: 700px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 277px;
+  height: 194px; }
+
+#rifles-text-one {
+  position: relative;
+  font-size: 48px;
+  transform: scale(1, 1.8);
+  font-weight: 900; }
+
+#rifles-text-two {
+  position: relative;
+  top: 41px;
+  font-size: 20px; }
+
+.passion-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 40px;
+  background-color: black;
+  position: relative;
+  top: 60px;
+  justify-content: space-around; }
+
+.currentPage {
+  width: 150px;
+  height: 38px;
+  background-color: blue;
+  position: relative;
+  left: 92px; }
+
+.rifleOrPassion {
+  width: 308px;
+  height: 38px;
+  background-color: red;
+  position: relative;
+  left: 39px; }
+
+.modelSelect {
+  width: 234px;
+  height: 38px;
+  background-color: yellow;
+  position: relative;
+  right: 94px; }
+
+.rifleGameTiles {
+  width: 100vw;
+  height: 830px; }
+
+.rifleGameTiles-one {
+  width: 100vw;
+  height: 830px;
+  display: none; }
+
+.rifletileFirstRow {
+  display: flex;
+  height: 228px;
+  width: 992px;
+  margin: auto;
+  position: relative;
+  justify-content: space-between;
+  top: 106px; }
+
+.rifletileLastRow {
+  isplay: flex;
+  height: 199px;
+  width: 900px;
+  margin: auto;
+  position: relative;
+  top: 217px !important; }
+
+#rifletile {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 25px; }
+
+#rifletile:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+  mix-blend-mode: hard-light; }
+
+#rifletile:hover:before {
+  background: #074b23; }
+
+#rifletileTwo {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 25px;
+  margin-right: 47px;
+  left: 131px; }
+
+#rifletileTwo:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+  mix-blend-mode: hard-light; }
+
+#rifletileTwo:hover:before {
+  background: #074b23; }
+
+#rifletileImageText {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 137px;
+  font-size: 22px;
+  transform: scale(1, 1.8);
+  font-weight: 800; }
+
+.rifletileImageOne {
+  background-image: url("http://bit.ly/2nHZcB9");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.rifletileImageTwo {
+  background-image: url("http://bit.ly/2mGeFQl");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.rifletileImageThree {
+  background-image: url("http://bit.ly/2n4YTSD");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.rifletileImageFour {
+  background-image: url("http://bit.ly/2mYsPy3");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.rifletileImageFive {
+  background-image: url("http://bit.ly/2n56qAP");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.rifletileLastRow {
+  display: flex;
+  height: 199px;
+  width: 900px;
+  margin: auto;
+  position: relative;
+  top: 143px; }
+
+.below-rifle-tile {
+  width: 100vw;
+  height: 467px;
+  display: flex;
+  justify-content: space-around;
+  color: #286017; }
+
+.below-rifle-left {
+  width: 617px;
+  height: 412px;
+  background-color: yellow;
+  border-right-style: solid;
+  border-right-color: black; }
+
+.below-rifle-left-text {
+  margin-bottom: 25px; }
+
+#below-rifle-text-one {
+  font-size: 25px; }
+
+#block {
+  width: 580px; }
+
+.below-rifle-right {
+  width: 580px;
+  height: 412px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.underFlicky-rifle {
+  background-image: url(http://bit.ly/2m2HYkx);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 416px;
+  background-position-y: -160px;
+  position: relative;
+  top: 0px;
+  display: flex;
+  justify-content: center; }
+
+.below-rifle-tile-one {
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  justify-content: space-between; }
+
+.below-rifle-left-one {
+  width: 617px;
+  height: 715px;
+  border-right-style: solid;
+  border-right-color: black;
+  position: relative;
+  left: 199px;
+  top: 68px;
+  color: #286017; }
+
+.below-rifle-right-one {
+  width: 580px;
+  height: 657px;
+  position: relative;
+  top: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.below-rifle-right-one-images {
+  background-image: url("http://bit.ly/2n0K3us");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 200px; }
+
+.below-rifle-right-two-images {
+  background-image: url("http://bit.ly/2nDlFlP");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 200px; }
+
+.below-rifle-right-three-images {
+  background-image: url("http://bit.ly/2mMK0l3");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 200px; }
+
+#below-rifle-text-two {
+  font-size: 31px;
+  transform: scale(1, 2.4);
+  font-weight: 800; }
+
+#below-rifle-text-two {
+  position: relative;
+  top: 5px; }
+
+.below-rifle-left-text-one {
+  margin-bottom: 36px;
+  position: relative;
+  top: 19px; }
+
 /* Include this file in your html if you are using the CSP mode. */
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
 .ng-cloak, .x-ng-cloak,
@@ -2646,6 +2646,95 @@ http://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1; }
 
+/** { box-sizing: border-box; }*/
+body {
+  font-family: sans-serif;
+  color: #333; }
+
+.gallery {
+  border: 1px solid;
+  width: 400px;
+  margin-bottom: 40px; }
+
+.gallery .cell {
+  width: 100%;
+  height: 100px;
+  background: #F09;
+  font-size: 40px;
+  color: white; }
+
+.variable-width .cell {
+  width: 25%; }
+
+/* 100px */
+.variable-width .cell.width2 {
+  width: 40%;
+  background: #F90; }
+
+/* 160px */
+.variable-width .cell.width3 {
+  width: 60%;
+  background: #09F; }
+
+/* 240px */
+#position-cells.percent-margin .cell {
+  margin: 0 2%; }
+
+#position-cells.pixel-margin .cell {
+  margin: 0 10px; }
+
+/*#drag-wrap-around { position: fixed; top: 0;}*/
+.drag .cell {
+  margin-right: 5%; }
+
+#watch.has-after:after {
+  content: 'flickity';
+  display: none; }
+
+#lazyload img {
+  display: block;
+  max-height: 100px; }
+
+/* ---- group-cells ---- */
+#group-cells .cell {
+  width: 100px;
+  /*  border: 1px solid;*/ }
+
+#group-cells .cell--width2 {
+  width: 200px; }
+
+#group-cells .cell--width3 {
+  width: 300px; }
+
+#group-cells .cell--width4 {
+  width: 400px; }
+
+#group-cells.is-expanded {
+  width: 600px; }
+
+#group-cells .cell:nth-child(2n) {
+  background: #09F; }
+
+/* ---- adaptive-height ---- */
+#adaptive-height .cell {
+  width: 33.33%; }
+
+#adaptive-height .cell--height2 {
+  height: 200px; }
+
+#adaptive-height .cell--height3 {
+  height: 300px; }
+
+#adaptive-height .cell--height4 {
+  height: 400px; }
+
+#adaptive-height .cell:nth-child(2n) {
+  background: #09F; }
+
+/* ---- select-cell ---- */
+#select-cell .cell {
+  width: 33.33%; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2761,95 +2850,6 @@ body {
   position: absolute;
   left: 10px;
   top: 10px; }
-
-/** { box-sizing: border-box; }*/
-body {
-  font-family: sans-serif;
-  color: #333; }
-
-.gallery {
-  border: 1px solid;
-  width: 400px;
-  margin-bottom: 40px; }
-
-.gallery .cell {
-  width: 100%;
-  height: 100px;
-  background: #F09;
-  font-size: 40px;
-  color: white; }
-
-.variable-width .cell {
-  width: 25%; }
-
-/* 100px */
-.variable-width .cell.width2 {
-  width: 40%;
-  background: #F90; }
-
-/* 160px */
-.variable-width .cell.width3 {
-  width: 60%;
-  background: #09F; }
-
-/* 240px */
-#position-cells.percent-margin .cell {
-  margin: 0 2%; }
-
-#position-cells.pixel-margin .cell {
-  margin: 0 10px; }
-
-/*#drag-wrap-around { position: fixed; top: 0;}*/
-.drag .cell {
-  margin-right: 5%; }
-
-#watch.has-after:after {
-  content: 'flickity';
-  display: none; }
-
-#lazyload img {
-  display: block;
-  max-height: 100px; }
-
-/* ---- group-cells ---- */
-#group-cells .cell {
-  width: 100px;
-  /*  border: 1px solid;*/ }
-
-#group-cells .cell--width2 {
-  width: 200px; }
-
-#group-cells .cell--width3 {
-  width: 300px; }
-
-#group-cells .cell--width4 {
-  width: 400px; }
-
-#group-cells.is-expanded {
-  width: 600px; }
-
-#group-cells .cell:nth-child(2n) {
-  background: #09F; }
-
-/* ---- adaptive-height ---- */
-#adaptive-height .cell {
-  width: 33.33%; }
-
-#adaptive-height .cell--height2 {
-  height: 200px; }
-
-#adaptive-height .cell--height3 {
-  height: 300px; }
-
-#adaptive-height .cell--height4 {
-  height: 400px; }
-
-#adaptive-height .cell:nth-child(2n) {
-  background: #09F; }
-
-/* ---- select-cell ---- */
-#select-cell .cell {
-  width: 33.33%; }
 
 body {
   font-family: sans-serif;
