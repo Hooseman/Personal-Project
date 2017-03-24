@@ -253,30 +253,6 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
 });
 'use strict';
 
-angular.module('remingtonApp').service('mainService', function ($http) {
-  this.getRifles = function () {
-    return $http.get('/api/rifles').then(function (response) {
-      console.log(response.data);
-      return response.data;
-    });
-  };
-
-  this.getShotguns = function () {
-    return $http.get('./data/shotgun.json').then(function (response) {
-      // console.log(response.data);
-      return response.data;
-    });
-  };
-
-  this.getHandguns = function () {
-    return $http.get('./data/handgun.json').then(function (response) {
-      // console.log(response.data);
-      return response.data;
-    });
-  };
-});
-'use strict';
-
 angular.module('remingtonApp').directive('footerNav', function () {
   return {
     restrict: 'E',
@@ -387,5 +363,29 @@ angular.module('remingtonApp').directive('topCarousel', function () {
         showSlides(slideIndex = n);
       }
     }
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').service('mainService', function ($http) {
+  this.getRifles = function () {
+    return $http.get('/api/rifles').then(function (response) {
+      console.log(response.data);
+      return response.data;
+    });
+  };
+
+  this.getShotguns = function () {
+    return $http.get('/api/shotguns').then(function (response) {
+      // console.log(response.data);
+      return response.data;
+    });
+  };
+
+  this.getHandguns = function () {
+    return $http.get('/api/handguns').then(function (response) {
+      // console.log(response.data);
+      return response.data;
+    });
   };
 });

@@ -3,17 +3,6 @@ angular.module('remingtonApp').directive('topCarousel', function() {
     restrict: 'E',
     templateUrl:"./views/remington/topCarousel.html",
     controller: function($scope) {
-      var slideIndex = 0;
-      showSlides(slideIndex);
-
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-
       function showSlides() {
           var i;
           var slides = document.getElementsByClassName("mySlides");
@@ -30,6 +19,19 @@ angular.module('remingtonApp').directive('topCarousel', function() {
           dots[slideIndex-1].className += " active";
           setTimeout(showSlides, 6000);
       }
+      
+      var slideIndex = 0;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+
     }
   }
 });
