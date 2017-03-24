@@ -29,4 +29,9 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity'])
     url: '/model-R-15-vtr-predator-moe-16-1/2',
     templateUrl: './views/gunviews/model-R-15-vtr-predator-moe-16-1/2.html'
   })
+  $stateProvider
+  .state('bolt-action', {
+    url: '/bolt-action',
+    templateUrl: './views/bolt-action.html'
+  })
 })

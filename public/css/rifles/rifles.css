@@ -35,7 +35,6 @@
     flex-direction: row;
     width: 100vw;
     height: 40px;
-    background-color: black;
     position: relative;
     top: 60px;
     justify-content: space-around;
@@ -44,25 +43,111 @@
 .currentPage {
   width: 150px;
     height: 38px;
-    background-color: blue;
     position: relative;
     left: 92px;
+    display: flex;
+}
+
+.currentPageHome {
+  width: 20px;
+height: 20px;
+}
+
+.home-logo {
+  position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.currentPageArrow {
+  background-image: url("http://bit.ly/2obmEG5");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10px;
+  height: 32px;
+  position: relative;
+left: 19px;
+}
+
+.currentPageText {
+  color: #555;
+}
+
+.currentPageTextOne {
+  position: relative;
+top: 10px;
+left: 25px;
 }
 
 .rifleOrPassion {
   width: 308px;
 height: 38px;
-background-color: red;
 position: relative;
-left: 39px;
+left: 7px;
+display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+
+.slider-passion {
+
+}
+
+.slider-passion-text {
+  position: relative;
+    top: 8px;
+    font-size: 22px;
+    right: 20px;
+    white-space: nowrap;
+}
+
+.slider-passion-text-one {
+  position: relative;
+    top: 8px;
+    font-size: 22px;
+    left: 20px;
+    white-space: nowrap;
+}
+
+.slider-outer {
+  width: 124px;
+height: 20px;
+background-color: pink;
+position: relative;
+top: 10px;
+border-radius: 5px;
+}
+
+.slider-inner {
+  width: 124px;
+height: 2px;
+background-color: black;
+position: relative;
+top: 9px;
+}
+
+.slider-circle {
+  width: 30px;
+    height: 30px;
+    background-color: #555;
+    border-radius: 50px;
+    position: relative;
+    bottom: 13px;
 }
 
 .modelSelect {
   width: 234px;
 height: 38px;
-background-color: yellow;
+background-color: #555;
 position: relative;
 right: 94px;
+color: white;
+}
+
+.select-text {
+  text-align: center;
+    position: relative;
+    top: 10px;
 }
 
 .rifleGameTiles {

@@ -22,7 +22,7 @@ const paths = {
   jsSource: ['./public/js/app.js','./public/js/**/*.js', './public/js/*.js'],
   cssFiles: './public/**/**/*.css',
   scssFiles: './public/**/**/*.scss',
-  dist: './dist',
+  dist: './public/dist',
 };
 
 gulp.task('build-css', function () {
@@ -35,8 +35,7 @@ gulp.task('build-css', function () {
 });
 
 gulp.task('clean', function (cb) {
-  return del([
-    '/dist/**'
+  return del([paths.dist
   ], cb).then(() => {
      return gulp.start(['build-css', 'build-js']);
   });

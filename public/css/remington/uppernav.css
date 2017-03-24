@@ -13,10 +13,6 @@ nav-bar {
     z-index: 9999;
 }
 
-.sterling {
-  background-color: black;
-}
-
 .color {
     width: 100vw;
     height: 35px;
@@ -49,7 +45,7 @@ nav-bar {
     margin-bottom: -2px;
 }
 
-.fa {
+.nav-search {
     position: relative;
     left: 389px;
     bottom: -7px;
@@ -131,6 +127,14 @@ a:-webkit-any-link {
 #rifle_one {
     position: relative;
     right: 27px;
+}
+
+.rifle_one:link {
+  text-decoration: none;
+}
+
+.other-products-link:link{
+  text-decoration: none;
 }
 
 .navHover:hover {

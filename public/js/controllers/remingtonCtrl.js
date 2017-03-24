@@ -55,9 +55,9 @@ mainService.getRifles().then(function(response){
 // $scope.cents = $scope.rifles[0].cents;
 // $scope.imageurl = $scope.rifles[0].imageurl;
     //Rifle//
-    $scope.clickRifleTemplate = id=> {
-      let array = $scope.rifles;
-      for (let i = 0; i < array.length; i++) {
+    $scope.clickRifleTemplate = function (id) {
+      var array = $scope.rifles;
+      for (var i = 0; i < array.length; i++) {
         if (array[i].id === id) {
           $scope.name = array[i].name;
           $scope.class = array[i].class;
@@ -80,7 +80,7 @@ console.log($scope.rifles)
       // console.log($scope.rifles)
     })
         //Shotgun//
-        $scope.clickShotgunTemplate = (id) => {
+        $scope.clickShotgunTemplate = function(id) {
           var array = $scope.shotguns;
           for (var i = 0; i < array.length; i++) {
             if (array[i].id === id) {
@@ -202,6 +202,8 @@ console.log($scope.rifles)
         $scope.showShotPumpAction = false;
 
     }
+
+    console.log('hi')
     // //Modern rifle//
     // $scope.showModelR15 = true;
     // $scope.showModelR25G11 = false;
