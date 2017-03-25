@@ -19,4 +19,11 @@ angular.module('remingtonApp').service('mainService', function($http){
       return response.data;
     })
   }
+
+  this.getAmmunition = function (){
+    return $http.get('/api/ammunition').then(function(response){
+      // console.log(response.data);
+      return response.data;
+    })
+  }
 })

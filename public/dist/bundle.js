@@ -32,6 +32,37 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity']).config(function ($s
 });
 'use strict';
 
+angular.module('remingtonApp').service('mainService', function ($http) {
+  this.getRifles = function () {
+    return $http.get('/api/rifles').then(function (response) {
+      console.log(response.data);
+      return response.data;
+    });
+  };
+
+  this.getShotguns = function () {
+    return $http.get('/api/shotguns').then(function (response) {
+      // console.log(response.data);
+      return response.data;
+    });
+  };
+
+  this.getHandguns = function () {
+    return $http.get('/api/handguns').then(function (response) {
+      // console.log(response.data);
+      return response.data;
+    });
+  };
+
+  this.getAmmunition = function () {
+    return $http.get('/api/ammunition').then(function (response) {
+      // console.log(response.data);
+      return response.data;
+    });
+  };
+});
+'use strict';
+
 angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mainService) {
 
     $scope.find = "                SEARCH";
@@ -41,6 +72,7 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
         $scope.showRifle = !$scope.showRifle;
         $scope.showShotgun = false;
         $scope.showHandgun = false;
+        $scope.showAmmunition = false;
     };
 
     $scope.leaveRifle = function () {
@@ -53,6 +85,7 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
         $scope.showShotgun = !$scope.showShotgun;
         $scope.showRifle = false;
         $scope.showHandgun = false;
+        $scope.showAmmunition = false;
     };
 
     $scope.leaveShotgun = function () {
@@ -65,10 +98,24 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
         $scope.showHandgun = !$scope.showHandgun;
         $scope.showRifle = false;
         $scope.showShotgun = false;
+        $scope.showAmmunition = false;
     };
 
     $scope.leaveHandgun = function () {
         $scope.showHandgun = !$scope.showHandgun;
+    };
+
+    $scope.showAmmunition = false;
+
+    $scope.hoverAmmunition = function () {
+        $scope.showAmmunition = !$scope.showAmmunition;
+        $scope.showRifle = false;
+        $scope.showShotgun = false;
+        $scope.showHandgun = false;
+    };
+
+    $scope.leaveAmmunition = function () {
+        $scope.showAmmunition = !$scope.showAmmunition;
     };
 
     $scope.myCustomOptions = {
@@ -80,14 +127,7 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
         $scope.rifles = response;
         // console.log($scope.rifles)
     });
-    //rifledefaultvalues//
-    // $scope.name = $scope.rifles[0].name;
-    // $scope.class = $scope.rifles[0].class;
-    // $scope.desc = $scope.rifles[0].desc;
-    // $scope.modelNum = $scope.rifles[0].modelNum;
-    // $scope.dollar = $scope.rifles[0].dollar;
-    // $scope.cents = $scope.rifles[0].cents;
-    // $scope.imageurl = $scope.rifles[0].imageurl;
+
     //Rifle//
     $scope.clickRifleTemplate = function (id) {
         var array = $scope.rifles;
@@ -158,33 +198,32 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
         }
         console.log($scope.handgun);
     };
-    // $scope.showBoltAction = true;
-    // $scope.showModernSporting = false;
-    // $scope.showMuzzleLoading = false;
-    // $scope.showPumpAction = false;
-    // $scope.RimFire = false;
-    //
-    // $scope.showModel700 = true;
-    // $scope.showModelSeven = false;
-    // $scope.showModel783 = false;
-    //
-    // $scope.clickModel700 = function() {
-    //     $scope.showModel700 = true;
-    //     $scope.showModelSeven = false;
-    //     $scope.showModel783 = false;
-    // }
-    // $scope.clickModelSeven = function() {
-    //     $scope.showModelSeven = !$scope.showModelSeven;
-    //     $scope.showModel700 = false;
-    //     $scope.showModel783 = false;
-    // }
-    //
-    // $scope.clickModel783 = function() {
-    //     $scope.showModel783 = !$scope.showModel783;
-    //     $scope.showModelSeven = false;
-    //     $scope.showModel700 = false;
-    // }
-    //
+
+    mainService.getAmmunition().then(function (response) {
+        $scope.ammunition = response;
+        // console.log($scope.rifles)
+    });
+    //Ammunition//
+    $scope.clickAmmunitionTemplate = function (id) {
+        var array = $scope.ammunition;
+        for (var i = 0; i < array.length; i++) {
+            if (array[i].id === id) {
+                $scope.name = array[i].name;
+                $scope.class = array[i].class;
+                $scope.desc = array[i].desc;
+                $scope.modelNum = array[i].modelNum;
+                $scope.dollar = array[i].dollar;
+                if (array[i].cents === "") {
+                    $scope.cents = "00";
+                } else {
+                    $scope.cents = array[i].cents;
+                }
+                $scope.imageurl = array[i].imageurl;
+            }
+        }
+        console.log($scope.ammunition);
+    };
+
     $scope.clickBoltAction = function () {
         $scope.showBoltAction = true;
         $scope.showMuzzleLoading = false;
@@ -235,7 +274,45 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
         $scope.showShotPumpAction = false;
     };
 
-    console.log('hi');
+    $scope.clickShotShell = function () {
+        $scope.showShotShell = !$scope.showShotShell;
+        $scope.showComponents = false;
+        $scope.showRimfire = false;
+        $scope.showHandgun = false;
+        $scope.showCenterFireRifle = false;
+    };
+
+    $scope.clickCenterFireRifle = function () {
+        $scope.showCenterFireRifle = !$scope.showCenterFireRifle;
+        $scope.showComponents = false;
+        $scope.showRimfire = false;
+        $scope.showHandgun = false;
+        $scope.showShotShell = false;
+    };
+
+    $scope.clickHandgun = function () {
+        $scope.showHandgun = !$scope.showHandgun;
+        $scope.showComponents = false;
+        $scope.showRimfire = false;
+        $scope.showCenterFireRifle = false;
+        $scope.showShotShell = false;
+    };
+
+    $scope.clickRimfire = function () {
+        $scope.showRimfire = !$scope.showRimfire;
+        $scope.showComponents = false;
+        $scope.showHandgun = false;
+        $scope.showCenterFireRifle = false;
+        $scope.showShotShell = false;
+    };
+
+    $scope.clickComponents = function () {
+        $scope.showComponents = !$scope.showComponents;
+        $scope.showRimfire = false;
+        $scope.showHandgun = false;
+        $scope.showCenterFireRifle = false;
+        $scope.showShotShell = false;
+    };
     // //Modern rifle//
     // $scope.showModelR15 = true;
     // $scope.showModelR25G11 = false;
@@ -253,26 +330,21 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
 });
 'use strict';
 
-angular.module('remingtonApp').service('mainService', function ($http) {
-  this.getRifles = function () {
-    return $http.get('/api/rifles').then(function (response) {
-      console.log(response.data);
-      return response.data;
-    });
+angular.module('remingtonApp').directive('ammunitionTemplate', function () {
+  return {
+    restrict: 'EA',
+    templateUrl: "./views/rifleviews/ammunition-template.html",
+    controller: "remingtonCtrl"
   };
+});
+'use strict';
 
-  this.getShotguns = function () {
-    return $http.get('./data/shotgun.json').then(function (response) {
-      // console.log(response.data);
-      return response.data;
-    });
-  };
-
-  this.getHandguns = function () {
-    return $http.get('./data/handgun.json').then(function (response) {
-      // console.log(response.data);
-      return response.data;
-    });
+angular.module('remingtonApp').directive('hoverammunition', function () {
+  return {
+    restrict: 'E',
+    templateUrl: "./views/navviews/ammunition-dropdown.html",
+    controller: 'remingtonCtrl',
+    link: function link(scope, element, attrs) {}
   };
 });
 'use strict';

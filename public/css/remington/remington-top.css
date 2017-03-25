@@ -300,7 +300,6 @@ height: 58px;
     margin: auto;
     position: relative;
     top: 213px;
-    left: 381px;
 }
 
 .mySlideClassName {
@@ -317,7 +316,7 @@ height: 58px;
 #flickityImageText {
     position: relative;
     top: 280px;
-    right: 75px;
+    right: -11px;
     font-size: 15px;
     font-weight: 100;
 }
@@ -325,7 +324,7 @@ height: 58px;
 #flickityImageText-one {
     position: relative;
     top: 280px;
-    right: 36px;
+    right: -8px;
     font-size: 15px;
     font-weight: 100;
 }
@@ -333,7 +332,7 @@ height: 58px;
 #flickityImageText-two {
     position: relative;
     top: 280px;
-    left: -116px;
+    left: 13px;
     font-size: 15px;
     font-weight: 100;
 }
@@ -341,7 +340,7 @@ height: 58px;
 #flickityImageText-three {
     position: relative;
     top: 280px;
-    right: 19px;
+    right: -10px;
     font-size: 15px;
     font-weight: 100;
 }
@@ -358,6 +357,14 @@ height: 58px;
     border-right: none;
     border-bottom: none;
     border-width: thin;
+}
+
+.ballistics {
+  font-size: 13px;
+    position: relative;
+    left: 5px;
+    text-align: right;
+    top: 6px;
 }
 
 .flickity-price-spacing {
@@ -407,7 +414,7 @@ top: 8px;
     height: 47px;
     background-color: red;
     position: relative;
-    bottom: 38px;
+    bottom: 31px;
     width: 72px;
     left: 225px;
 }
@@ -466,17 +473,23 @@ top: 8px;
     display: none !important;
 }
 
-.flickity-prev-next-button.previous {
-    left: -181px ;
+.flickity-prev-next-button.previous.hello {
+  font-size: 13px;
+  position: relative;
+  left: -182px;
+  text-align: right;
+  top: 6px;
 }
 
-.flickity-prev-next-button.next {
-    right: -186px ;
+.flickity-prev-next-button.next.hello {
+  left: -184px;
+position: relative;
+bottom: 228px;
 }
 
 .flickity-prev-next-button {
     position: absolute;
-    top: 34% ;
+    top: 38% !important;
     width: 44px;
     height: 44px;
     border: none;

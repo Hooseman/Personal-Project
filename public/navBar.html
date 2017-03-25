@@ -37,9 +37,12 @@
                   <a class="rifle_one" ng-mouseenter="hoverShotgun()" ui-sref='remington'>SHOTGUNS</a>
                 </li>
                 <li class="navHover" id="handgun_one">
-                  <a class="rifle_one" ng-mouseenter="hoverHandgun()"<a ui-sref='remington'>HANDGUNS</a>
+                  <a class="rifle_one" ng-mouseenter="hoverHandgun()" ui-sref='remington'>HANDGUNS</a>
                 </li>
-                <li class="navHover" id="ammunition_one"><a ui-sref='remington' class='other-products-link'>AMMUNITION</a></li>
+                <li class="navHover" id="ammunition_one">
+                  <a class='other-products-link' ng-mouseenter="hoverAmmunition()" ui-sref='remington'>AMMUNITION</a>
+                </li>
+
                 <div class="other-products">
                     <li class="navHover" id="otherproducts_one"><a ui-sref='remington' class='other-products-link'>OTHER PRODUCTS</a></li>
                 </div>
@@ -62,8 +65,7 @@
     <div ng-mouseleave="leaveHandgun()">
       <hoverhandgun ng-if="showHandgun"></hoverhandgun>
     </div>
+    <div ng-mouseleave="leaveAmmunition()">
+      <hoverammunition ng-if="showAmmunition"></hoverammunition>
+    </div>
 <!-- </nav> -->
-<script>
-
-
-</script>

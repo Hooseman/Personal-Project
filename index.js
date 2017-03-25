@@ -23,39 +23,39 @@ db.set_schema(function(err, data) {
 })
 
 app.get('/api/rifles', function(req, res, next) {
-  db.get_rifles(function(err, sunglasses) {
+  db.get_rifles(function(err, rifles) {
     if (err) {
       res.status(500).json(err);
     } else {
-      res.json(sunglasses)
-      console.log(sunglasses)
+      res.json(rifles)
+      console.log(rifles)
     }
   });
 })
 
 app.get('/api/shotguns', function(req, res, next) {
-  db.get_rifles(function(err, sunglasses) {
+  db.get_shotguns(function(err, shotguns) {
     if (err) {
       res.status(500).json(err);
     } else {
-      res.json(sunglasses)
-      console.log(sunglasses)
+      res.json(shotguns)
+      console.log(shotguns)
     }
   });
 })
 
 app.get('/api/handguns', function(req, res, next) {
-  db.get_rifles(function(err, sunglasses) {
+  db.get_handguns(function(err, handguns) {
     if (err) {
       res.status(500).json(err);
     } else {
-      res.json(sunglasses)
-      console.log(sunglasses)
+      res.json(handguns)
+      console.log(handguns)
     }
   });
 })
 // app.get('/api/products', function(req, res, next) {
-//   db.get_sunglasses(function(err, sunglasses) {
+//   db.get_products(function(err, sunglasses) {
 //     if (err) {
 //       res.status(500).json(err);
 //     } else {
@@ -64,6 +64,17 @@ app.get('/api/handguns', function(req, res, next) {
 //     }
 //   });
 // })
+
+app.get('/api/ammunition', function(req, res, next) {
+  db.get_ammunition(function(err, ammunition) {
+    if (err) {
+      res.status(500).json(err);
+    } else {
+      res.json(ammunition)
+      console.log(ammunition)
+    }
+  });
+})
 
 
 // db.set_schema((err, data) => {

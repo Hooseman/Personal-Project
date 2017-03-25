@@ -7,6 +7,7 @@ angular.module('remingtonApp').controller('remingtonCtrl', function($scope,mainS
         $scope.showRifle = !$scope.showRifle;
         $scope.showShotgun = false;
         $scope.showHandgun = false;
+        $scope.showAmmunition = false;
     }
 
     $scope.leaveRifle = function() {
@@ -19,6 +20,7 @@ angular.module('remingtonApp').controller('remingtonCtrl', function($scope,mainS
         $scope.showShotgun = !$scope.showShotgun;
         $scope.showRifle = false;
         $scope.showHandgun = false;
+        $scope.showAmmunition = false;
     }
 
     $scope.leaveShotgun = function() {
@@ -31,10 +33,24 @@ angular.module('remingtonApp').controller('remingtonCtrl', function($scope,mainS
         $scope.showHandgun = !$scope.showHandgun;
           $scope.showRifle = false;
           $scope.showShotgun = false;
+          $scope.showAmmunition = false;
     }
 
     $scope.leaveHandgun = function() {
         $scope.showHandgun = !$scope.showHandgun;
+    }
+
+    $scope.showAmmunition = false;
+
+    $scope.hoverAmmunition = function() {
+        $scope.showAmmunition = !$scope.showAmmunition;
+          $scope.showRifle = false;
+          $scope.showShotgun = false;
+          $scope.showHandgun = false;
+    }
+
+    $scope.leaveAmmunition = function() {
+        $scope.showAmmunition = !$scope.showAmmunition;
     }
 
     $scope.myCustomOptions = {
@@ -46,18 +62,11 @@ mainService.getRifles().then(function(response){
   $scope.rifles=response;
   // console.log($scope.rifles)
 })
-//rifledefaultvalues//
-// $scope.name = $scope.rifles[0].name;
-// $scope.class = $scope.rifles[0].class;
-// $scope.desc = $scope.rifles[0].desc;
-// $scope.modelNum = $scope.rifles[0].modelNum;
-// $scope.dollar = $scope.rifles[0].dollar;
-// $scope.cents = $scope.rifles[0].cents;
-// $scope.imageurl = $scope.rifles[0].imageurl;
+
     //Rifle//
-    $scope.clickRifleTemplate = function (id) {
-      var array = $scope.rifles;
-      for (var i = 0; i < array.length; i++) {
+    $scope.clickRifleTemplate = id => {
+      let array = $scope.rifles;
+      for (let i = 0; i < array.length; i++) {
         if (array[i].id === id) {
           $scope.name = array[i].name;
           $scope.class = array[i].class;
@@ -80,9 +89,9 @@ console.log($scope.rifles)
       // console.log($scope.rifles)
     })
         //Shotgun//
-        $scope.clickShotgunTemplate = function(id) {
-          var array = $scope.shotguns;
-          for (var i = 0; i < array.length; i++) {
+        $scope.clickShotgunTemplate = id => {
+          let array = $scope.shotguns;
+          for (let i = 0; i < array.length; i++) {
             if (array[i].id === id) {
               $scope.name = array[i].name;
               $scope.class = array[i].class;
@@ -105,9 +114,9 @@ console.log($scope.rifles)
           // console.log($scope.rifles)
         })
             //Handgun//
-            $scope.clickHandgunTemplate = function(id){
-              var array = $scope.handguns;
-              for (var i = 0; i < array.length; i++) {
+            $scope.clickHandgunTemplate = id => {
+              let array = $scope.handguns;
+              for (let i = 0; i < array.length; i++) {
                 if (array[i].id === id) {
                   $scope.name = array[i].name;
                   $scope.class = array[i].class;
@@ -124,34 +133,33 @@ console.log($scope.rifles)
               }
         console.log($scope.handgun)
             }
-    // $scope.showBoltAction = true;
-    // $scope.showModernSporting = false;
-    // $scope.showMuzzleLoading = false;
-    // $scope.showPumpAction = false;
-    // $scope.RimFire = false;
-    //
-    // $scope.showModel700 = true;
-    // $scope.showModelSeven = false;
-    // $scope.showModel783 = false;
-    //
-    // $scope.clickModel700 = function() {
-    //     $scope.showModel700 = true;
-    //     $scope.showModelSeven = false;
-    //     $scope.showModel783 = false;
-    // }
-    // $scope.clickModelSeven = function() {
-    //     $scope.showModelSeven = !$scope.showModelSeven;
-    //     $scope.showModel700 = false;
-    //     $scope.showModel783 = false;
-    // }
-    //
-    // $scope.clickModel783 = function() {
-    //     $scope.showModel783 = !$scope.showModel783;
-    //     $scope.showModelSeven = false;
-    //     $scope.showModel700 = false;
-    // }
-    //
-    $scope.clickBoltAction = function() {
+
+            mainService.getAmmunition().then(function(response){
+              $scope.ammunition=response;
+              // console.log($scope.rifles)
+            })
+                //Ammunition//
+                $scope.clickAmmunitionTemplate = id => {
+                  let array = $scope.ammunition;
+                  for (let i = 0; i < array.length; i++) {
+                    if (array[i].id === id) {
+                      $scope.name = array[i].name;
+                      $scope.class = array[i].class;
+                      $scope.desc = array[i].desc;
+                      $scope.modelNum = array[i].modelNum;
+                      $scope.dollar = array[i].dollar;
+                      if (array[i].cents === ""){
+                        $scope.cents = "00";
+                      }else{
+                        $scope.cents = array[i].cents;
+                      }
+                      $scope.imageurl = array[i].imageurl;
+                    }
+                  }
+            console.log($scope.ammunition)
+                }
+
+    $scope.clickBoltAction = () => {
         $scope.showBoltAction = true;
         $scope.showMuzzleLoading = false;
         $scope.showModernSporting = false;
@@ -159,7 +167,7 @@ console.log($scope.rifles)
         $scope.RimFire = false;
     }
     //
-    $scope.clickModernSporting = function() {
+    $scope.clickModernSporting = () => {
         $scope.showModernSporting = !$scope.showModernSporting;
         $scope.showBoltAction = false;
         $scope.showMuzzleLoading = false;
@@ -167,7 +175,7 @@ console.log($scope.rifles)
         $scope.RimFire = false;
     }
     //
-    $scope.clickMuzzleLoading = function() {
+    $scope.clickMuzzleLoading = () => {
         $scope.showMuzzleLoading = !$scope.showMuzzleLoading;
         $scope.showBoltAction = false;
         $scope.showModernSporting = false;
@@ -175,7 +183,7 @@ console.log($scope.rifles)
         $scope.RimFire = false;
     }
 
-    $scope.clickPumpaction = function() {
+    $scope.clickPumpaction = () => {
         $scope.showPumpAction = !$scope.showPumpAction;
         $scope.RimFire = false;
         $scope.showMuzzleLoading = false;
@@ -183,7 +191,7 @@ console.log($scope.rifles)
         $scope.showModernSporting = false;
     }
 
-    $scope.clickRimfire = function() {
+    $scope.clickRimfire = () => {
         $scope.showRimFire = !$scope.showRimFire;
         $scope.showPumpAction = false;
         $scope.showMuzzleLoading = false;
@@ -191,19 +199,56 @@ console.log($scope.rifles)
         $scope.showModernSporting = false;
     }
 
-    $scope.clickShotPumpaction = function() {
+    $scope.clickShotPumpaction = () => {
         $scope.showShotPumpAction = !$scope.showShotPumpAction;
         $scope.AutoLoading = false;
 
     }
 
-    $scope.clickAutoLoading = function() {
+    $scope.clickAutoLoading = () => {
         $scope.showAutoLoading = !$scope.showAutoLoading;
         $scope.showShotPumpAction = false;
 
     }
 
-    console.log('hi')
+    $scope.clickShotShell = () => {
+        $scope.showShotShell = !$scope.showShotShell;
+        $scope.showComponents = false;
+        $scope.showRimfire = false;
+        $scope.showHandgun = false;
+        $scope.showCenterFireRifle = false;
+    }
+
+    $scope.clickCenterFireRifle = () => {
+        $scope.showCenterFireRifle = !$scope.showCenterFireRifle;
+        $scope.showComponents = false;
+        $scope.showRimfire = false;
+        $scope.showHandgun = false;
+        $scope.showShotShell = false;
+    }
+
+    $scope.clickHandgun = () => {
+        $scope.showHandgun = !$scope.showHandgun;
+        $scope.showComponents = false;
+        $scope.showRimfire = false;
+        $scope.showCenterFireRifle = false;
+        $scope.showShotShell = false;
+    }
+
+    $scope.clickRimfire = () => {$scope.showRimfire = !$scope.showRimfire;
+        $scope.showComponents = false;
+        $scope.showHandgun = false;
+        $scope.showCenterFireRifle = false;
+        $scope.showShotShell = false;
+    }
+
+    $scope.clickComponents = () => {
+        $scope.showComponents = !$scope.showComponents;
+        $scope.showRimfire = false;
+        $scope.showHandgun = false;
+        $scope.showCenterFireRifle = false;
+        $scope.showShotShell = false;
+    }
     // //Modern rifle//
     // $scope.showModelR15 = true;
     // $scope.showModelR25G11 = false;

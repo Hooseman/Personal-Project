@@ -10,7 +10,7 @@ gulp.task('js', function(){
     presets: ['es2015']
   }))
   .pipe(concat('bundle.js'))
-  .pipe(gulp.dest('./dist'));
+  .pipe(gulp.dest('./public/dist'));
 });
 
 
@@ -25,11 +25,12 @@ gulp.task('css', function() {
     './public/css/remington/bottomnav.css',
     './public/css/rifles/rifles.css',
     './public/css/rifles/modernrifles.css',
+    './public/css/rifles/bolt-action.css',
     './public/css/**/*.scss'
     ])
   .pipe(sass().on('error', sass.logError))
   .pipe(concat('bundle.css'))
-  .pipe(gulp.dest('./dist'));
+  .pipe(gulp.dest('./public/dist'));
 });
 
 gulp.task('watch', function() {

@@ -1,0 +1,156 @@
+[
+  {
+  "id": 1,
+  "name": "UPLAND LOADS",
+  "class": "SHOTSHELL",
+  "description":"FEATURING HEAVY DOVE LOADS",
+  "modelNum": 5,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2mApgRA",
+  "weaponType": 4
+},
+{
+  "id": 2,
+  "name": "WATERFOWL LOADS",
+  "class": "SHOTSHELL",
+  "description":"FEATURING SPORTSMAN HI-SPEED STEEL",
+  "modelNum": 3,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2mApgRA",
+  "weaponType": 4
+},
+  {
+  "id": 3,
+  "name": "TURKEY LOADS",
+  "class": "SHOTSHELL",
+  "description":"FEATURING NITRO TURKEY LOADS",
+  "modelNum": 4,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nxapGV",
+  "weaponType": 4
+},
+{
+  "id": 4,
+  "name": "TARGET LOADS",
+  "class": "SHOTSHELL",
+  "description":"FEATURING AMERICAN CLAY & FIELD SPORT LOADS",
+  "modelNum": 5,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2mAzykB",
+  "weaponType": 4
+},
+{
+  "id": 5,
+  "name": "SLUGS",
+  "class": "SHOTSHELL",
+  "description":"FEATURING EXPRESS® MANAGED-RECOIL® RIFLED SLUGS",
+  "modelNum": 7,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nR1Bwu",
+  "weaponType": 4
+},
+{
+  "id": 6,
+  "name": "BUCKSHOT",
+  "class": "SHOTSHELL",
+  "description":"FEATURING MANAGED-RECOIL BUCKSHOT LOADS",
+  "modelNum": 4,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2mAqcp4",
+  "weaponType": 4
+},
+{
+  "id": 7,
+  "name": "CENTERFIRE RIFLE",
+  "class": "AMMUNITION",
+  "description":"FEATURING CORE-LOKT",
+  "modelNum": 10,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nxbSgj",
+  "weaponType": 4
+},
+{
+  "id": 8,
+  "name": "HANDGUN",
+  "class": "AMMUNITION",
+  "description":"FEATURING HIGH TERMINAL PERFORMANCE (HTP)",
+  "modelNum": 4,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2o0TVVt",
+  "weaponType": 4
+},
+{
+  "id": 9,
+  "name": "RIMFIRE",
+  "class": "AMMUNITION",
+  "description":"FEATURING PREMIER GOLD BOX RIMFIRE",
+  "modelNum": 13,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nRwX5Z",
+  "weaponType": 4
+},
+{
+  "id": 10,
+  "name": "BRASS",
+  "class": "COMPONENTS",
+  "description":"FEATURING UNPRIMED PISTOL & REVOLVER BRASS",
+  "modelNum": 3,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nxiL1e",
+  "weaponType": 4
+},
+{
+  "id": 11,
+  "name": "BULLETS",
+  "class": "COMPONENTS",
+  "description":"FEATURING PREMIER® CORE-LOKT®ULTRA BONDED® BULLETS",
+  "modelNum": 2,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nlULxp",
+  "weaponType": 4
+},
+{
+  "id": 12,
+  "name": "PRIMERS",
+  "class": "COMPONENTS",
+  "description":"FFEATURING 209 PREMIER® STS® PRIMERS",
+  "modelNum": 2,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nOeCX2",
+  "weaponType": 4
+},
+{
+  "id": 13,
+  "name": "WADS",
+  "class": "COMPONENTS",
+  "description":"FEATURING SHOTSHELL WADS – HUNTING – POWER PISTON® ONE PIECE",
+  "modelNum": 2,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nlUXN9",
+  "weaponType": 4
+},
+{
+  "id": 14,
+  "name": "MUZZLELOADING",
+  "class": "COMPONENTS",
+  "description":"FEATURING KLEANBORE® MUZZLELOADING PRIMERS",
+  "modelNum": 2,
+  "dollar": 0,
+  "cents": "",
+  "imageurl": "http://bit.ly/2nNY9SM",
+  "weaponType": 4
+}
+]

@@ -5,12 +5,10 @@
     justify-content: space-between;
 }
 
-.media-one {
-
-}
+.media-one {}
 
 .media-two {
-  position: relative;
+    position: relative;
     top: 60px;
 }
 
@@ -40,33 +38,33 @@
 }
 
 .media-left-one {
-  width: 277px;
-height: 125px;
-position: relative;
-top: 0px;
-left: 9px;
+    width: 277px;
+    height: 125px;
+    position: relative;
+    top: 0px;
+    left: 9px;
 }
 
 .media-left-two {
-  width: 277px;
-  height: 155px;
-  position: relative;
-  top: 33px;
-  border-style: solid;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-  border-width: thin;
-  left: 9px;
+    width: 277px;
+    height: 155px;
+    position: relative;
+    top: 33px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: thin;
+    left: 9px;
 }
 
 .media-left-three {
-  width: 277px;
-height: 92px;
-position: relative;
-top: 38px;
-left: 9px;
-border-style: solid;
+    width: 277px;
+    height: 92px;
+    position: relative;
+    top: 38px;
+    left: 9px;
+    border-style: solid;
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -333,13 +331,88 @@ border-style: solid;
 }
 
 #mediaOne {
-    background-image: url("http://bit.ly/2mAzoot");
+    background-image: url("http://bit.ly/2n3EScH");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 333px;
+}
+
+.imgWrap {
+    position: relative;
+    width: 49%;
+    height: 380px;
+}
+
+.imgDecription {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(1, 1, 1, 0.8);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+}
+
+.imgWrap:hover .imgDecription {
+    visibility: visible;
+    opacity: 1;
+    color: white;
 }
 
 #mediaTwo {
     background-color: #074b23;
+}
+
+.congrats {
+    color: white;
+    width: 250px;
+    text-align: start;
+    margin: auto;
+    position: relative;
+    top: 49px;
+    font-size: 19px;
+}
+
+.wrapOne {
+  width: 109px;
+height: 10px;
+position: relative;
+top: 52px;
+left: 40px;
+}
+
+.wrapTwo {
+  position: relative;
+top: 41px;
+left: 40px;
+}
+
+.wrapThree {
+  position: relative;
+top: 23px;
+left: 40px;
+}
+
+
+
+.line {
+    width: 109px;
+    height: 6px;
+    background-color: white;
+    position: relative;
+    top: 75px;
+    left: 44px;
+}
+
+.hours {
+    color: white;
+    position: relative;
+    top: 22px;
+    white-space: nowrap;
+    font-size: 18px;
 }
 
 #mediaThree {
