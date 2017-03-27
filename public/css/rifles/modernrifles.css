@@ -297,6 +297,13 @@
     position: relative;
     top: 10px;
 }
+
+#contain-right-one-new {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 13px;
+}
 /* second in gun list */
 
 .div-modern-rifle-wrapper-second {

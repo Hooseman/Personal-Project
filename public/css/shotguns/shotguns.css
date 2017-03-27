@@ -29,6 +29,70 @@ body {
     background-size: cover;
 }
 
+.flickityImageOne-shotgun {
+  background-image: url("http://bit.ly/2mIHUqH");
+background-repeat: no-repeat;
+background-size: cover;
+width: 484px;
+height: 70px;
+position: relative;
+left: 1px;
+bottom: 15px;
+}
+
+.flickityImageOne-rifle {
+  background-image: url("http://bit.ly/2n14RlP");
+background-repeat: no-repeat;
+background-size: cover;
+width: 484px;
+height: 70px;
+position: relative;
+left: 1px;
+bottom: 15px;
+}
+
+.flickityPriceShotgun {
+  width: 499px;
+    height: 48px;
+    /* background-color: red; */
+    position: relative;
+    top: 88px;
+    border-top-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: thin;
+}
+
+.mySlideClassName-shotgun {
+  margin-right: 10px;
+    position: absolute;
+    height: 231px !important;
+    margin-right: 19px;
+    border-style: solid !important;
+    border-color: black !important;
+    border: black;
+    border-width: thin;
+    width: 500px;
+}
+
+.viewTwoShotgun {
+    height: 47px;
+    background-color: red;
+    position: relative;
+    bottom: 36px;
+    width: 72px;
+    left: 428px;
+}
+
+#flickityImageText-oneShotgun {
+    position: relative;
+    top: 140px;
+    left: 103px;
+    font-size: 23px;
+    font-weight: 100;
+}
 .bg-shotgun-image {
     background-image: url("http://bit.ly/2nqAWFa");
     background-repeat: no-repeat;

@@ -9,29 +9,29 @@
 }
 
 .ListOfRiflesOne {
-  width: 778px;
+    width: 778px;
     height: 550px;
     background-color: blue;
 }
 
 .ListOfRiflesTwo {
-  width: 100vw;
-  height: 550px;
-  background-color: tan;
+    width: 100vw;
+    height: 550px;
+    background-color: tan;
 }
 
 #bolt-one {
-  display: flex;
+    display: flex;
 }
 
 .bolt-second {
-  height: 10px;
+    height: 10px;
     position: relative;
     left: 105px;
 }
 
 #rifle-text {
-  left: 92px;
+    left: 92px;
     position: relative;
     font-size: 28px;
     transform: scale(1, 1.8);
@@ -43,7 +43,7 @@
 }
 
 #text-in-rifle-list {
-  position: relative;
+    position: relative;
     left: 93px;
     line-height: 35px;
     top: 71px;
@@ -101,75 +101,75 @@
 }
 
 #slideone-logo-one {
-  background-image: url(http://bit.ly/2n8OvaI);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 156px;
-  height: 86px;
-  position: relative;
-  margin: auto;
-  line-height: 100px;
-  top: 391px;
+    background-image: url(http://bit.ly/2n8OvaI);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 156px;
+    height: 86px;
+    position: relative;
+    margin: auto;
+    line-height: 100px;
+    top: 391px;
 }
 
 #slideone-text-one {
-  font-size: 40px;
-  letter-spacing: -1px;
-  transform: scale(1, 1.8);
-  position: relative;
-  top: 257px;
-  font-weight: 800;
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing: -1px;
+    transform: scale(1, 1.8);
+    position: relative;
+    top: 257px;
+    font-weight: 800;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
 }
 
 #slideone-textone-one {
-  position: relative;
-  top: 310px;
-  font-size: 18px;
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    position: relative;
+    top: 310px;
+    font-size: 18px;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
 }
 
 #slideone-texttwo-one {
-  background-color: white;
-  color: black;
-  line-height: 44px;
-  position: relative;
-  top: 332px;
-  width: 250px;
-  margin: auto;
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 44px;
+    position: relative;
+    top: 332px;
+    width: 250px;
+    margin: auto;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
 }
 
 #slideone-text-two {
-  font-size: 40px;
-  letter-spacing: -1px;
-  transform: scale(1, 1.8);
-  position: relative;
-  top: 445px;
-  font-weight: 800;
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing: -1px;
+    transform: scale(1, 1.8);
+    position: relative;
+    top: 445px;
+    font-weight: 800;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
 }
 
 #slideone-textone-two {
-  position: relative;
-  top: 478px;
-  font-size: 18px;
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    position: relative;
+    top: 478px;
+    font-size: 18px;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
 }
 
 #slideone-texttwo-two {
-  background-color: white;
-  color: black;
-  line-height: 44px;
-  position: relative;
-  top: 500px;
-  width: 250px;
-  margin: auto;
-  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 44px;
+    position: relative;
+    top: 500px;
+    width: 250px;
+    margin: auto;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
 }
 
 #slideone-logo-two {
-  background-image: url(http://bit.ly/2nT70zY);
+    background-image: url(http://bit.ly/2nT70zY);
     background-repeat: no-repeat;
     background-size: cover;
     width: 296px;
@@ -181,7 +181,7 @@
 }
 
 #slideone-text-three {
-  font-size: 40px;
+    font-size: 40px;
     letter-spacing: -1px;
     transform: scale(1, 1.8);
     position: relative;
@@ -191,7 +191,7 @@
 }
 
 #slideone-textone-three {
-  position: relative;
+    position: relative;
     top: 413px;
     font-size: 18px;
     font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
@@ -200,15 +200,15 @@
 }
 
 #slideone-texttwo-three {
-  background-color: white;
-color: black;
-line-height: 44px;
-position: relative;
-top: 435px;
-width: 483px;
-margin: auto;
-font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
-height: 58px;
+    background-color: white;
+    color: black;
+    line-height: 44px;
+    position: relative;
+    top: 435px;
+    width: 483px;
+    margin: auto;
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    height: 58px;
 }
 
 .slidetwo {
@@ -360,7 +360,7 @@ height: 58px;
 }
 
 .ballistics {
-  font-size: 13px;
+    font-size: 13px;
     position: relative;
     left: 5px;
     text-align: right;
@@ -368,40 +368,42 @@ height: 58px;
 }
 
 .flickity-price-spacing {
-  display: flex;
+    display: flex;
 }
 
 .flickity-price-size {
-  font-size: 30px;
-position: relative;
-top: 3px;
-left: 13px;
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+    left: 13px;
 }
 
 .flickity-price-size-two {
-  position: relative;
-left: 14px;
-top: 8px;
+    position: relative;
+    left: 14px;
+    top: 8px;
 }
 
 .flickity-price-msrp-size {
-  text-align: right;
+    text-align: right;
     position: relative;
     top: 5px;
     font-size: 14px;
     left: 7px;
 }
 
+
 /*
   TESTING
 */
+
 .previous {
-  left: -190px !important;
-}
-.next {
-  right: -190px !important;
+    left: -190px !important;
 }
 
+.next {
+    right: -190px !important;
+}
 
 .flickityImage {
     background-image: url("http://bit.ly/2lXVAxw");
@@ -421,6 +423,10 @@ top: 8px;
     text-align: center;
 }
 
+.view:hover {
+    background-color: #236f0a;
+}
+
 .viewTwo {
     height: 47px;
     background-color: red;
@@ -428,6 +434,10 @@ top: 8px;
     bottom: 31px;
     width: 72px;
     left: 225px;
+}
+
+.viewTwo:hover {
+    background-color: #236f0a;
 }
 
 #centerView {
@@ -484,6 +494,41 @@ top: 8px;
     display: none !important;
 }
 
+#imgDescriptionTwo {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.imgDescriptionBox {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: thin;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    width: 100px;
+    height: 50px;
+}
+
+.imgDescriptionTextBox {
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.div-text-hover:hover {
+  color: white;
+  cursor: pointer;
+}
+.wrapThree:hover {
+  color: white;
+  cursor: pointer;
+}
+.wrapOne:hover {
+  color: white;
+  cursor: pointer;
+}
 /*.flickity-prev-next-button.previous.hello {
   font-size: 13px;
   position: relative;

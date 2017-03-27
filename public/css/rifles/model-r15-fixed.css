@@ -198,6 +198,8 @@ top: 4px;
     position: relative;
     top: 10px;
     left: 18px;
+    transform: scale(0.7, 1.2);
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
 }
 
 .div-model-text-start {
@@ -406,4 +408,21 @@ top: 4px;
     line-height: 27px;
     color: #808080;
     top:95px;
+}
+
+.div-model-contain-one-new {
+    width: 525px;
+    height: 319px;
+    position: relative;
+    left: 189px;
+    line-height: 27px;
+    color: #808080;
+    top: 250px;
+}
+
+#contain-right-one-new {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 13px;
 }

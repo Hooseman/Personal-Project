@@ -457,6 +457,9 @@ input, select {
   left: 224px;
   text-align: center; }
 
+.view:hover {
+  background-color: #236f0a; }
+
 .viewTwo {
   height: 47px;
   background-color: red;
@@ -464,6 +467,9 @@ input, select {
   bottom: 31px;
   width: 72px;
   left: 225px; }
+
+.viewTwo:hover {
+  background-color: #236f0a; }
 
 #centerView {
   position: relative;
@@ -511,6 +517,38 @@ input, select {
 
 .flickity-page-dots .dot {
   display: none !important; }
+
+#imgDescriptionTwo {
+  position: relative;
+  left: 50px;
+  top: 50px; }
+
+.imgDescriptionBox {
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-width: thin;
+  position: relative;
+  left: 50px;
+  top: 100px;
+  width: 100px;
+  height: 50px; }
+
+.imgDescriptionTextBox {
+  text-align: center;
+  position: relative;
+  top: 15px; }
+
+.div-text-hover:hover {
+  color: white;
+  cursor: pointer; }
+
+.wrapThree:hover {
+  color: white;
+  cursor: pointer; }
+
+.wrapOne:hover {
+  color: white;
+  cursor: pointer; }
 
 /*.flickity-prev-next-button.previous.hello {
   font-size: 13px;
@@ -1163,12 +1201,21 @@ input, select {
 #mediaFour {
   background-image: url("http://bit.ly/2mD5j8L");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  width: 333px; }
 
 #social-text {
   text-align: center;
   position: relative;
   top: 10px; }
+
+.fa-image-facebook {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: relative;
+  top: 46px;
+  z-index: 999; }
 
 /*<style>@import url('https://fonts.googleapis.com/css?family=Roboto');
 </style>*/
@@ -1749,6 +1796,9 @@ a:-webkit-any-link {
 .fa-1 {
   margin-right: 30px !important; }
 
+.color-change:hover {
+  background-color: green; }
+
 .bg-image {
   background-image: url("http://bit.ly/2n6e8eR");
   background-repeat: no-repeat;
@@ -2009,7 +2059,6 @@ a:-webkit-any-link {
 .below-rifle-left {
   width: 617px;
   height: 412px;
-  background-color: yellow;
   border-right-style: solid;
   border-right-color: black;
   position: relative;
@@ -2030,7 +2079,6 @@ a:-webkit-any-link {
 .below-rifle-right {
   width: 534px;
   height: 412px;
-  background-color: blue;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2361,6 +2409,12 @@ a:-webkit-any-link {
   text-align: center;
   position: relative;
   top: 10px; }
+
+#contain-right-one-new {
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: 13px; }
 
 /* second in gun list */
 .div-modern-rifle-wrapper-second {
@@ -2916,6 +2970,69 @@ a:-webkit-any-link {
   border-bottom-style: solid;
   border-width: thin; }
 
+.div-modern-rifle-right-bottom-contain-right-second-new {
+  width: 70px;
+  height: 42px;
+  background-color: #074b23;
+  position: relative;
+  left: 285px;
+  color: white; }
+
+.div-modern-rifle-right-bottom-contain-right-now {
+  width: 70px;
+  height: 42px;
+  background-color: #074b23;
+  position: relative;
+  left: 285px;
+  color: white; }
+
+.div-modern-rifle-right-bottom-contain-right-second-next {
+  width: 70px;
+  height: 42px;
+  background-color: #074b23;
+  position: relative;
+  left: 270px;
+  color: white; }
+
+.new-image-size {
+  background-image: url(http://bit.ly/2nl4kNr);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 478px;
+  height: 67px;
+  margin-right: 170px;
+  position: relative;
+  top: 30px; }
+
+.new-image-one {
+  background-image: url(http://bit.ly/2nN8KNY);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 512px;
+  height: 85px;
+  margin-right: 170px;
+  position: relative;
+  top: 30px; }
+
+.new-text {
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+  transform: scale(1, 1.8);
+  font-weight: 900;
+  font-size: 19px;
+  margin-right: 170px;
+  color: #555555;
+  position: relative;
+  top: 45px; }
+
+.new-text-one {
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+  transform: scale(1, 1.8);
+  font-weight: 900;
+  font-size: 19px;
+  margin-right: 170px;
+  color: #555555;
+  position: relative; }
+
 second-bar {
   position: fixed;
   z-index: 99; }
@@ -3084,7 +3201,9 @@ second-bar {
 .currentPageTextOne-start {
   position: relative;
   top: 10px;
-  left: 18px; }
+  left: 18px;
+  transform: scale(0.7, 1.2);
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif; }
 
 .div-model-text-start {
   width: 525px;
@@ -3268,6 +3387,21 @@ second-bar {
   color: #808080;
   top: 95px; }
 
+.div-model-contain-one-new {
+  width: 525px;
+  height: 319px;
+  position: relative;
+  left: 189px;
+  line-height: 27px;
+  color: #808080;
+  top: 250px; }
+
+#contain-right-one-new {
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: 13px; }
+
 /*$font-stack: font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;*/
 body {
   margin-left: 0;
@@ -3293,6 +3427,65 @@ body {
   background-image: url("http://bit.ly/2nY6m7s");
   background-repeat: no-repeat;
   background-size: cover; }
+
+.flickityImageOne-shotgun {
+  background-image: url("http://bit.ly/2mIHUqH");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 484px;
+  height: 70px;
+  position: relative;
+  left: 1px;
+  bottom: 15px; }
+
+.flickityImageOne-rifle {
+  background-image: url("http://bit.ly/2n14RlP");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 484px;
+  height: 70px;
+  position: relative;
+  left: 1px;
+  bottom: 15px; }
+
+.flickityPriceShotgun {
+  width: 499px;
+  height: 48px;
+  /* background-color: red; */
+  position: relative;
+  top: 88px;
+  border-top-color: black;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-width: thin; }
+
+.mySlideClassName-shotgun {
+  margin-right: 10px;
+  position: absolute;
+  height: 231px !important;
+  margin-right: 19px;
+  border-style: solid !important;
+  border-color: black !important;
+  border: black;
+  border-width: thin;
+  width: 500px; }
+
+.viewTwoShotgun {
+  height: 47px;
+  background-color: red;
+  position: relative;
+  bottom: 36px;
+  width: 72px;
+  left: 428px; }
+
+#flickityImageText-oneShotgun {
+  position: relative;
+  top: 140px;
+  left: 103px;
+  font-size: 23px;
+  font-weight: 100; }
 
 .bg-shotgun-image {
   background-image: url("http://bit.ly/2nqAWFa");
@@ -3349,3 +3542,32 @@ body {
   margin-right: 170px;
   position: relative;
   top: 30px; }
+
+.div-modern-autoloading-image-second-auto {
+  position: relative;
+  top: 27px; }
+
+.div-modern-rifle-right-bottom-contain-right-second-auto {
+  width: 70px;
+  height: 42px;
+  background-color: #074b23;
+  position: relative;
+  left: 285px;
+  color: white; }
+
+.div-modern-rifle-right-bottom-wrapper-left-second-auto {
+  display: flex;
+  position: relative;
+  top: 12px;
+  border-style: solid;
+  border-width: thin;
+  width: 543px; }
+
+.div-modern-rifle-right-bottom-contain-right-autoTwo {
+  width: 70px;
+  height: 42px;
+  background-color: #074b23;
+  position: relative;
+  left: 285px;
+  color: white; }
+

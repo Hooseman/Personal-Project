@@ -299,7 +299,6 @@ color: white;
 .below-rifle-left {
     width: 617px;
     height: 412px;
-    background-color: yellow;
     border-right-style: solid;
     border-right-color: black;
     position: relative;
@@ -325,7 +324,6 @@ color: white;
 .below-rifle-right {
   width: 534px;
     height: 412px;
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;

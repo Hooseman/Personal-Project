@@ -1,13 +1,13 @@
 .bg-image-autoloading {
-  background-image: url("http://bit.ly/2nqZPRr");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 723px;
-  width: 100vw;
-  z-index: -1;
+    background-image: url("http://bit.ly/2nqZPRr");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 723px;
+    width: 100vw;
+    z-index: -1;
 }
 
-.div-modern-inside-right-rightside-autoloading{
+.div-modern-inside-right-rightside-autoloading {
     background-image: url("http://bit.ly/2n8w7xL");
     width: 350px;
     height: 200px;
@@ -17,7 +17,6 @@
     position: relative;
     top: -41px;
 }
-
 
 .div-modern-autoloading-image {
     background-repeat: no-repeat;
@@ -46,4 +45,36 @@
     margin-right: 170px;
     position: relative;
     top: 30px;
+}
+
+.div-modern-autoloading-image-second-auto {
+    position: relative;
+    top: 27px;
+}
+
+.div-modern-rifle-right-bottom-contain-right-second-auto {
+    width: 70px;
+    height: 42px;
+    background-color: #074b23;
+    position: relative;
+    left: 285px;
+    color: white;
+}
+
+.div-modern-rifle-right-bottom-wrapper-left-second-auto {
+    display: flex;
+    position: relative;
+    top: 12px;
+    border-style: solid;
+    border-width: thin;
+    width: 543px;
+}
+
+.div-modern-rifle-right-bottom-contain-right-autoTwo {
+    width: 70px;
+    height: 42px;
+    background-color: #074b23;
+    position: relative;
+    left: 285px;
+    color: white;
 }

@@ -484,3 +484,73 @@
     border-bottom-style: solid;
     border-width: thin;
 }
+
+.div-modern-rifle-right-bottom-contain-right-second-new {
+  width: 70px;
+    height: 42px;
+    background-color: #074b23;
+    position: relative;
+    left: 285px;
+    color: white;
+}
+
+.div-modern-rifle-right-bottom-contain-right-now {
+  width: 70px;
+height: 42px;
+background-color: #074b23;
+position: relative;
+left: 285px;
+color: white;
+}
+
+.div-modern-rifle-right-bottom-contain-right-second-next {
+    width: 70px;
+    height: 42px;
+    background-color: #074b23;
+    position: relative;
+    left: 270px;
+    color: white;
+}
+
+.new-image-size {
+  background-image: url(http://bit.ly/2nl4kNr);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 478px;
+    height: 67px;
+    margin-right: 170px;
+    position: relative;
+    top: 30px;
+}
+
+.new-image-one {
+  background-image: url(http://bit.ly/2nN8KNY);
+background-repeat: no-repeat;
+background-size: cover;
+width: 512px;
+height: 85px;
+margin-right: 170px;
+position: relative;
+top: 30px;
+}
+
+.new-text {
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+transform: scale(1, 1.8);
+font-weight: 900;
+font-size: 19px;
+margin-right: 170px;
+color: #555555;
+position: relative;
+top: 45px;
+}
+
+.new-text-one {
+  font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+transform: scale(1, 1.8);
+font-weight: 900;
+font-size: 19px;
+margin-right: 170px;
+color: #555555;
+position: relative;
+}

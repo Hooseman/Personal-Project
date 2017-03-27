@@ -29,6 +29,7 @@ gulp.task('css', function() {
     './public/css/rifles/model-r15-fixed.css',
     './public/css/shotguns/shotguns.css',
     './public/css/shotguns/autoloading.css',
+    './public/css/rifles/tactical-chassis.css',
     './public/css/**/*.scss'
     ])
   .pipe(sass().on('error', sass.logError))

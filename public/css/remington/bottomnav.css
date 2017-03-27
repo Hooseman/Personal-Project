@@ -245,3 +245,7 @@
 .fa-1 {
     margin-right: 30px !important;
 }
+
+.color-change:hover {
+  background-color: green;
+}

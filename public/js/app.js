@@ -56,6 +56,21 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity'])
     templateUrl: './views/gunviews/model-r15-vtr-predator-moe-22.html'
   })
   $stateProvider
+  .state('model-700-cdl-sf', {
+    url: '/model-700-cdl-sf',
+    templateUrl: './views/gunviews/model-700-cdl-sf.html'
+  })
+  $stateProvider
+  .state('model-700-tactical-chassis', {
+    url: '/model-700-tactical-chassis',
+    templateUrl: './views/gunviews/model-700-tactical-chassis.html'
+  })
+  $stateProvider
+  .state('model-700-vtr', {
+    url: '/model-700-vtr',
+    templateUrl: './views/gunviews/model-700-vtr.html'
+  })
+  $stateProvider
   .state('bolt-action', {
     url: '/bolt-action',
     templateUrl: './views/bolt-action.html'

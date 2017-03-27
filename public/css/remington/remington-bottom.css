@@ -425,10 +425,20 @@ left: 40px;
     background-image: url("http://bit.ly/2mD5j8L");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 333px;
 }
 
 #social-text {
     text-align: center;
     position: relative;
     top: 10px;
+}
+
+.fa-image-facebook {
+  width: 35px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    top: 46px;
+    z-index: 999;
 }
