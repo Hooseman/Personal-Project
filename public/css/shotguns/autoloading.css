@@ -1,0 +1,49 @@
+.bg-image-autoloading {
+  background-image: url("http://bit.ly/2nqZPRr");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 723px;
+  width: 100vw;
+  z-index: -1;
+}
+
+.div-modern-inside-right-rightside-autoloading{
+    background-image: url("http://bit.ly/2n8w7xL");
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 51px;
+    position: relative;
+    top: -41px;
+}
+
+
+.div-modern-autoloading-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 504px;
+    height: 80px;
+    margin-left: 170px;
+    position: relative;
+    top: 30px;
+}
+
+.div-autoloading-right-bottom-contain-right {
+    width: 70px;
+    height: 42px;
+    background-color: #074b23;
+    position: relative;
+    left: 285px;
+    color: white;
+}
+
+.div-autoloading-image-second {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 504px;
+    height: 80px;
+    margin-right: 170px;
+    position: relative;
+    top: 30px;
+}

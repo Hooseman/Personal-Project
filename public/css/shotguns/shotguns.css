@@ -1,0 +1,44 @@
+/*$font-stack: font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;*/
+
+body {
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.shotgunTileFirstRow {
+    display: flex;
+    height: 228px;
+    width: 636px;
+    margin: auto;
+    position: relative;
+    justify-content: space-between;
+    top: 106px;
+}
+
+.shotguntileImageOne {
+    background-image: url("http://bit.ly/2nDpXJc");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shotguntileImageTwo {
+    background-image: url("http://bit.ly/2nY6m7s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-shotgun-image {
+    background-image: url("http://bit.ly/2nqAWFa");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 723px;
+    width: 100vw;
+    z-index: -1;
+}
+
+.shotgunGameTiles {
+    width: 100vw;
+    height: 551px;
+}

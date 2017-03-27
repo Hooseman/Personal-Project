@@ -274,8 +274,8 @@ height: 58px;
 
 .dot {
     cursor: pointer;
-    height: 10px;
-    width: 10px;
+    height: 6px;
+    width: 6px;
     margin: 0 2px;
     border-radius: 50%;
     border-width: 2px;
@@ -391,6 +391,17 @@ top: 8px;
     font-size: 14px;
     left: 7px;
 }
+
+/*
+  TESTING
+*/
+.previous {
+  left: -190px !important;
+}
+.next {
+  right: -190px !important;
+}
+
 
 .flickityImage {
     background-image: url("http://bit.ly/2lXVAxw");

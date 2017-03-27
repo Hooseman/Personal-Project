@@ -16,8 +16,8 @@
   </div>
 </div>
 
-<!-- <nav> -->
-    <div class="bottomNav">
+<header id="drop">
+    <div id="bottomNav">
         <ul>
 
             <div class='remington-top'>
@@ -34,7 +34,7 @@
                   <a class="rifle_one" ng-mouseenter="hoverRifle()" ui-sref='rifles'>RIFLES</a>
                 </li>
                 <li class="navHover" id="shotgun_one">
-                  <a class="rifle_one" ng-mouseenter="hoverShotgun()" ui-sref='remington'>SHOTGUNS</a>
+                  <a class="rifle_one" ng-mouseenter="hoverShotgun()" ui-sref='shotguns'>SHOTGUNS</a>
                 </li>
                 <li class="navHover" id="handgun_one">
                   <a class="rifle_one" ng-mouseenter="hoverHandgun()" ui-sref='remington'>HANDGUNS</a>
@@ -68,16 +68,4 @@
     <div ng-mouseleave="leaveAmmunition()">
       <hoverammunition ng-if="showAmmunition"></hoverammunition>
     </div>
-<!-- </nav> -->
-<script>
-$(document).ready(function() {
-    $( '.header' ).hover(
-        function(){
-            $(this).children('.navHover').slideDown(200);
-        },
-        function(){
-            $(this).children('.navHover').slideUp(200);
-        }
-    );
-});
-</script>
+</header>

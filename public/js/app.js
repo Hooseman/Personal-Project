@@ -15,6 +15,12 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity'])
     controller: "remingtonCtrl"
   })
   $stateProvider
+  .state('shotguns', {
+    url: '/shotguns',
+    templateUrl: './views/shotgun/shotgun.html',
+    controller: "remingtonCtrl"
+  })
+  $stateProvider
   .state('modernrifles', {
     url: '/modernrifles',
     templateUrl: './views/modernrifles/modernrifles.html'
@@ -53,5 +59,15 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity'])
   .state('bolt-action', {
     url: '/bolt-action',
     templateUrl: './views/bolt-action.html'
+  })
+  $stateProvider
+  .state('autoloading', {
+    url: '/autoloading',
+    templateUrl: './views/shotgun/autoloading.html'
+  })
+  $stateProvider
+  .state('pumpaction', {
+    url: '/pumpaction',
+    templateUrl: './views/shotgun/pumpaction.html'
   })
 })

@@ -13,6 +13,11 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity']).config(function ($s
     templateUrl: './views/rifleviews/rifle.html',
     controller: "remingtonCtrl"
   });
+  $stateProvider.state('shotguns', {
+    url: '/shotguns',
+    templateUrl: './views/shotgun/shotgun.html',
+    controller: "remingtonCtrl"
+  });
   $stateProvider.state('modernrifles', {
     url: '/modernrifles',
     templateUrl: './views/modernrifles/modernrifles.html'
@@ -45,6 +50,14 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity']).config(function ($s
     url: '/bolt-action',
     templateUrl: './views/bolt-action.html'
   });
+  $stateProvider.state('autoloading', {
+    url: '/autoloading',
+    templateUrl: './views/shotgun/autoloading.html'
+  });
+  $stateProvider.state('pumpaction', {
+    url: '/pumpaction',
+    templateUrl: './views/shotgun/pumpaction.html'
+  });
 });
 'use strict';
 
@@ -52,7 +65,11 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
 
     $scope.find = "                SEARCH";
     $scope.showRifle = false;
+    $scope.showPassion = false;
 
+    $scope.clickPassion = function () {
+        $scope.showPassion = !showPassion;
+    };
     $scope.hoverRifle = function () {
         $scope.showRifle = !$scope.showRifle;
         $scope.showShotgun = false;
@@ -106,7 +123,8 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
     $scope.myCustomOptions = {
         cellSelector: '.mySlideClassName',
         initialIndex: 1,
-        prevNextButtons: true
+        prevNextButtons: true,
+        wrapAround: true
     };
     mainService.getRifles().then(function (response) {
         $scope.rifles = response;
@@ -298,20 +316,6 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
         $scope.showCenterFireRifle = false;
         $scope.showShotShell = false;
     };
-    // //Modern rifle//
-    // $scope.showModelR15 = true;
-    // $scope.showModelR25G11 = false;
-    //
-    // $scope.clickModelR15 = function() {
-    //     $scope.showModelR15 = true;
-    //     $scope.showModelR25G11 = false;
-    //     $scope.showModel700 = false;
-    // }
-    // $scope.clickModelR25G11 = function() {
-    //     $scope.showModelR25G11 = !$scope.showModelR25G11;
-    //     $scope.showModelR15 = false;
-    //     $scope.showModel700 = false;
-    // }
 });
 'use strict';
 

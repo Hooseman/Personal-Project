@@ -289,8 +289,11 @@ color: white;
     width: 100vw;
     height: 467px;
     display: flex;
-    justify-content: space-around;
     color: #286017;
+    position: relative;
+    /*left: 200px;*/
+    display: flex;
+    justify-content: center;
 }
 
 .below-rifle-left {
@@ -299,6 +302,8 @@ color: white;
     background-color: yellow;
     border-right-style: solid;
     border-right-color: black;
+    position: relative;
+    left: 37px;
 }
 
 .below-rifle-left-text {
@@ -309,17 +314,23 @@ color: white;
     font-size: 25px;
 }
 
+#below-rifle-text-up {
+    line-height: 19px
+}
+
 #block {
     width: 580px;
 }
 
 .below-rifle-right {
-    width: 580px;
+  width: 534px;
     height: 412px;
     background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    left: 39px;
 }
 
 .underFlicky-rifle {

@@ -330,8 +330,8 @@ input, select {
 
 .dot {
   cursor: pointer;
-  height: 10px;
-  width: 10px;
+  height: 6px;
+  width: 6px;
   margin: 0 2px;
   border-radius: 50%;
   border-width: 2px;
@@ -431,6 +431,15 @@ input, select {
   top: 5px;
   font-size: 14px;
   left: 7px; }
+
+/*
+  TESTING
+*/
+.previous {
+  left: -190px !important; }
+
+.next {
+  right: -190px !important; }
 
 .flickityImage {
   background-image: url("http://bit.ly/2lXVAxw");
@@ -1218,7 +1227,7 @@ a:-webkit-any-link {
   text-decoration: none;
   cursor: auto; }
 
-.bottomNav {
+#bottomNav {
   position: relative; }
 
 .remington-top {
@@ -1991,15 +2000,20 @@ a:-webkit-any-link {
   width: 100vw;
   height: 467px;
   display: flex;
-  justify-content: space-around;
-  color: #286017; }
+  color: #286017;
+  position: relative;
+  /*left: 200px;*/
+  display: flex;
+  justify-content: center; }
 
 .below-rifle-left {
   width: 617px;
   height: 412px;
   background-color: yellow;
   border-right-style: solid;
-  border-right-color: black; }
+  border-right-color: black;
+  position: relative;
+  left: 37px; }
 
 .below-rifle-left-text {
   margin-bottom: 25px; }
@@ -2007,16 +2021,21 @@ a:-webkit-any-link {
 #below-rifle-text-one {
   font-size: 25px; }
 
+#below-rifle-text-up {
+  line-height: 19px; }
+
 #block {
   width: 580px; }
 
 .below-rifle-right {
-  width: 580px;
+  width: 534px;
   height: 412px;
   background-color: blue;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  position: relative;
+  left: 39px; }
 
 .underFlicky-rifle {
   background-image: url(http://bit.ly/2m2HYkx);
@@ -3248,3 +3267,85 @@ second-bar {
   line-height: 27px;
   color: #808080;
   top: 95px; }
+
+/*$font-stack: font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;*/
+body {
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0; }
+
+.shotgunTileFirstRow {
+  display: flex;
+  height: 228px;
+  width: 636px;
+  margin: auto;
+  position: relative;
+  justify-content: space-between;
+  top: 106px; }
+
+.shotguntileImageOne {
+  background-image: url("http://bit.ly/2nDpXJc");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.shotguntileImageTwo {
+  background-image: url("http://bit.ly/2nY6m7s");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg-shotgun-image {
+  background-image: url("http://bit.ly/2nqAWFa");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 723px;
+  width: 100vw;
+  z-index: -1; }
+
+.shotgunGameTiles {
+  width: 100vw;
+  height: 551px; }
+
+.bg-image-autoloading {
+  background-image: url("http://bit.ly/2nqZPRr");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 723px;
+  width: 100vw;
+  z-index: -1; }
+
+.div-modern-inside-right-rightside-autoloading {
+  background-image: url("http://bit.ly/2n8w7xL");
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 51px;
+  position: relative;
+  top: -41px; }
+
+.div-modern-autoloading-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 504px;
+  height: 80px;
+  margin-left: 170px;
+  position: relative;
+  top: 30px; }
+
+.div-autoloading-right-bottom-contain-right {
+  width: 70px;
+  height: 42px;
+  background-color: #074b23;
+  position: relative;
+  left: 285px;
+  color: white; }
+
+.div-autoloading-image-second {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 504px;
+  height: 80px;
+  margin-right: 170px;
+  position: relative;
+  top: 30px; }

@@ -2,7 +2,11 @@ angular.module('remingtonApp').controller('remingtonCtrl', function($scope,mainS
 
     $scope.find = "                SEARCH";
     $scope.showRifle = false;
+    $scope.showPassion = false;
 
+    $scope.clickPassion = function() {
+      $scope.showPassion = !showPassion;
+    }
     $scope.hoverRifle = function() {
         $scope.showRifle = !$scope.showRifle;
         $scope.showShotgun = false;
@@ -56,7 +60,8 @@ angular.module('remingtonApp').controller('remingtonCtrl', function($scope,mainS
     $scope.myCustomOptions = {
         cellSelector: '.mySlideClassName',
         initialIndex: 1,
-        prevNextButtons: true
+        prevNextButtons: true,
+        wrapAround: true
     };
 mainService.getRifles().then(function(response){
   $scope.rifles=response;
@@ -249,19 +254,6 @@ console.log($scope.rifles)
         $scope.showCenterFireRifle = false;
         $scope.showShotShell = false;
     }
-    // //Modern rifle//
-    // $scope.showModelR15 = true;
-    // $scope.showModelR25G11 = false;
-    //
-    // $scope.clickModelR15 = function() {
-    //     $scope.showModelR15 = true;
-    //     $scope.showModelR25G11 = false;
-    //     $scope.showModel700 = false;
-    // }
-    // $scope.clickModelR25G11 = function() {
-    //     $scope.showModelR25G11 = !$scope.showModelR25G11;
-    //     $scope.showModelR15 = false;
-    //     $scope.showModel700 = false;
-    // }
+
 
 });
