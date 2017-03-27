@@ -88,7 +88,7 @@ CREATE TABLE ammunition (
 
 INSERT INTO ammunition (name,class,description,modelNum,dollar,cents,imageurl,weaponType) VALUES
 ('UPLAND LOADS','SHOTSHELL','FEATURING HEAVY DOVE LOADS',5,0,'','http://bit.ly/2mApgRA',4),
-('WATERFOWL LOADS','SHOTSHELL','FEATURING HYPERSONIC STEEL',3,0,'','http://bit.ly/2mApgRA',4),
+('WATERFOWL LOADS','SHOTSHELL','FEATURING HYPERSONIC STEEL',3,0,'','http://bit.ly/2nl3eQ2',4),
 ('TURKEY LOADS','SHOTSHELL','FEATURING NITRO MAG® BUFFERED MAGNUM LOADS',4,0,'','http://bit.ly/2nxapGV',4),
 ('TARGET LOADS','SHOTSHELL','FEATURING AMERICAN CLAY & FIELD SPORT LOADS',5,0,'','http://bit.ly/2mAzykB',4),
 ('SLUGS','SHOTSHELL','FEATURING PREMIER COPPER SOLID SABOT SLUGS',7,0,'','http://bit.ly/2nR1Bwu',4),

@@ -1,3 +1,5 @@
+
+
 .bg-image-modernrifles {
     background-image: url("http://bit.ly/2nXaalk");
     background-repeat: no-repeat;
@@ -282,13 +284,19 @@
     bottom: 5px;
 }
 
+#contain-right-two {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 13px;
+}
+
+
 #contain-right-one {
     text-align: center;
     position: relative;
     top: 10px;
 }
-
-
 /* second in gun list */
 
 .div-modern-rifle-wrapper-second {

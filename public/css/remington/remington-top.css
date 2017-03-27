@@ -473,18 +473,12 @@ top: 8px;
     display: none !important;
 }
 
-.flickity-prev-next-button.previous.hello {
+/*.flickity-prev-next-button.previous.hello {
   font-size: 13px;
   position: relative;
   left: -182px;
   text-align: right;
   top: 6px;
-}
-
-.flickity-prev-next-button.next.hello {
-  left: -184px;
-position: relative;
-bottom: 228px;
 }
 
 .flickity-prev-next-button {
@@ -500,3 +494,7 @@ bottom: 228px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+.flickity-prev-next-button.previous {
+    left: -198px;
+}*/

@@ -17,10 +17,11 @@
 </div>
 
 <!-- <nav> -->
-    <div class="bottomNav">
+    <div class="bottomNav-One">
         <ul>
 
-            <div class='remington-top'>
+            <div class='remington-top-one'>
+              <div class="remington-top-one-text">
                 <!-- <li><a ui-sref='remington'>Remington</a></li> -->
                 <a ui-sref="remington">
                   <svg preserveAspectRatio="xMidYMid" width="209" height="44" viewBox="0 0 209 44" style="max-width: 180px">
@@ -28,8 +29,9 @@
                   </svg>
                 </a>
             </div>
+          </div>
 
-            <div class="header">
+            <div class="header-one">
                 <li class="navHover" id="rifle_one">
                   <a class="rifle_one" ng-mouseenter="hoverRifle()" ui-sref='rifles'>RIFLES</a>
                 </li>
@@ -55,6 +57,24 @@
                 <li id="shop_one"><a ui-sref='remington' class='other-products-link'>SHOP</a></li>
             </div>
         </ul>
+        <div class="bottom-of-bottom">
+          <div class="bottom-of-bottom-left-wrapper">
+            <div class="bottom-of-bottom-left-left">
+              <p class="bottom-of-bottom-left-left-text">OVERVIEW</p>
+            </div>
+            <div class="bottom-of-bottom-left-right"><p class="bottom-of-bottom-left-right-text">SPECS</p></div>
+          </div>
+          <div class="bottom-of-bottom-right-wrapper">
+            <div class="bottom-of-bottom-right-left">
+              <p class="bottom-of-bottom-right-left-text">SHARE</p>
+            </div>
+            <div class="bottom-of-bottom-middle-right"><p class="bottom-of-bottom-middle-text">RETAIL LOCATOR</p></div>
+              <div class="bottom-of-bottom-right-right"><input class="bottom-of-bottom-right-text">
+
+              </input>
+            </div>
+          </div>
+        </div>
     </div>
     <div ng-mouseleave="leaveRifle()">
       <hoverrifle ng-if="showRifle"></hoverrifle>
@@ -68,16 +88,3 @@
     <div ng-mouseleave="leaveAmmunition()">
       <hoverammunition ng-if="showAmmunition"></hoverammunition>
     </div>
-<!-- </nav> -->
-<script>
-$(document).ready(function() {
-    $( '.header' ).hover(
-        function(){
-            $(this).children('.navHover').slideDown(200);
-        },
-        function(){
-            $(this).children('.navHover').slideUp(200);
-        }
-    );
-});
-</script>

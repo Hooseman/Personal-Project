@@ -1,0 +1,409 @@
+second-bar {
+    position: fixed;
+    z-index: 99;
+}
+
+
+.header-one {
+    width: 927px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 17px;
+    position: relative;
+    right: 18px;
+    font-family: 'Roboto', sans-serif;
+    top: 9px;
+}
+
+.remington-top-one {
+    font-size: 40px;
+    position: relative;
+    background-color: #074b23;
+    height: 70px;
+    width: 400px;
+}
+
+.remington-top-one-text {
+  position: relative;
+left: 154px;
+top: 14px;
+}
+
+.bottomNav-One {
+    position: relative;
+    height: 70px;
+    bottom: 8px;
+    background-color: #3c3c3c;
+}
+
+.bottom-of-bottom{
+  width: 100vw;
+height: 27px;
+border-bottom-style: solid;
+border-width: thin;
+    background-color: white;
+}
+
+.bottom-of-bottom-left-wrapper{
+  height: 29px;
+width: 200px;
+position: relative;
+left: 145px;
+display: flex;
+justify-content: space-between;
+    color: #808080;
+}
+
+.bottom-of-bottom-left-left{
+  height: 29px;
+width: 100px;
+}
+
+.bottom-of-bottom-left-right{
+  height: 29px;
+width: 100px;
+}
+
+.bottom-of-bottom-left-left-text{
+  text-align: center;
+position: relative;
+top: 5px;
+}
+
+.bottom-of-bottom-left-right-text{
+  text-align: center;
+position: relative;
+top: 5px;
+}
+
+.bottom-of-bottom-right-wrapper{
+  height: 29px;
+      width: 100vw;
+      background-color: #808080;
+      position: relative;
+      left: 995px;
+      display: flex;
+          bottom: 30px;
+          color: white;
+}
+
+.bottom-of-bottom-right-left{
+  position: relative;
+      width: 84px;
+      border-right-style: solid;
+      border-width: thin;
+      border-color: black;
+}
+
+.bottom-of-bottom-right-left-text{
+  position: relative;
+    left: 14px;
+    top: 4px;
+}
+
+.bottom-of-bottom-middle-right{
+  position: relative;
+    left: 36px;
+    top: 4px;
+}
+
+.bottom-of-bottom-middle-text{
+
+}
+
+.bottom-of-bottom-right-right{
+  position: relative;
+top: 4px;
+}
+
+.bottom-of-bottom-right-text{
+  width: 142px;
+    position: relative;
+    left: 47px;
+}
+/* start of view */
+
+.model-r15-main-wrapper {
+    width: 100vw;
+    position: relative;
+}
+
+.model-r15-contain {
+    width: 100vw;
+    height: 605px;
+}
+
+.div-model-r15-gun-name {
+    width: 100vw;
+    height: 100px;
+}
+
+.div-gun-text {
+    color: #808080;
+    font-size: 28px;
+    transform: scale(.7, 1.8);
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    font-weight: 900;
+    position: relative;
+    top: 156px;
+}
+
+.div-model-image-pic {
+    background-image: url(http://bit.ly/2nzqT1d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 870px;
+    height: 146px;
+    position: relative;
+    margin: auto;
+    top: 180px;
+}
+
+.model-r15-main-wrapper-one {
+    height: 953px;
+    width: 100vw;
+}
+
+.currentPage-one {
+    width: 560px;
+    height: 38px;
+    position: relative;
+    left: 189px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currentPageTextOne-One {
+    color: #555;
+    transform: scale(0.7, 1.2);
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+    position: relative;
+    right: 37px;
+}
+
+.currentPageTextOne-Two {
+    color: #555;
+    transform: scale(0.7, 1.2);
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    left: 17px;
+}
+
+.currentPageTextOne-start {
+    position: relative;
+    top: 10px;
+    left: 18px;
+}
+
+.div-model-text-start {
+    width: 525px;
+    height: 319px;
+    position: relative;
+    left: 189px;
+}
+
+.div-model-text-start-text {
+    font-size: 22px;
+    position: relative;
+    top: 36px;
+    color: #808080;
+}
+
+.div-model-text-start-one {
+    width: 525px;
+    height: 319px;
+    position: relative;
+    left: 189px;
+}
+
+.div-model-text-start-text-one {
+    font-size: 22px;
+    position: relative;
+    top: 36px;
+}
+
+.div-model-contain {
+    width: 525px;
+    height: 319px;
+    position: relative;
+    left: 189px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.div-model-contain-text-li {
+    font-size: 20px;
+    width: 411px;
+    position: relative;
+    left: 16px;
+    margin-bottom: 2px;
+}
+
+.passion-wrapper-one {
+    width: 100vw;
+    height: 40px;
+    position: relative;
+    top: 60px;
+    justify-content: space-around;
+}
+
+.div-model-r15-right {
+    width: 525px;
+    height: 600px;
+    float: right;
+    position: relative;
+    right: 189px;
+    bottom: 31px;
+}
+
+#modelR15Text {
+    margin: auto;
+    position: relative;
+    left: 229px;
+    transform: scale(0.7, 1.2);
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#modelR15TextOne {
+    margin: auto;
+    font-size: 28px;
+    position: relative;
+    left: 140px;
+    transform: scale(0.7, 1.2);
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#modelR15TextTwo {
+    margin: auto;
+    position: relative;
+    left: 63px;
+    bottom: 6px;
+}
+
+#modelR15TextFour {
+    margin: auto;
+    transform: scale(0.7, 1.2);
+    font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#modelR15TextFive {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+#modelR15TextSix {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+.top-text-container-model-r15 {
+    width: 525px;
+    height: 50px;
+    background-color: #808080;
+    color: white;
+    display: flex;
+}
+
+.next-text-container-model-r15 {
+    width: 525px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    background-color: #074b23;
+    color: white;
+}
+
+#modelR15TextThree {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 22px;
+    left: 209px;
+}
+
+.next-bottom-text-container-model-r15 {
+    width: 525px;
+    height: 80px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+}
+
+.next-bottom-text-container-model-r15-left {
+    width: 255px;
+    height: 80px;
+    background-color: #808080;
+    color: white;
+}
+
+.next-bottom-text-container-model-r15-right {
+    width: 255px;
+    height: 80px;
+    background-color: #808080;
+    color: white;
+}
+
+.last-bottom-text-container-model-r15 {
+    width: 525px;
+    height: 80px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+}
+
+.last-bottom-text-container-model-r15-left {
+    width: 255px;
+    height: 80px;
+    color: #808080;
+    border-style: solid;
+    border-color: #808080;
+    border-width: thin;
+}
+
+.last-bottom-text-container-model-r15-right {
+    width: 255px;
+    height: 80px;
+    color: #808080;
+    border-style: solid;
+    border-color: #808080;
+    border-width: thin;
+}
+
+.model-r15-main-wrapper-one-one {
+    height: 1023px;
+    width: 100vw;
+}
+
+.div-model-contain-one {
+    width: 525px;
+    height: 319px;
+    position: relative;
+    left: 189px;
+    line-height: 27px;
+    color: #808080;
+    top: 46px;
+}
+
+.div-model-contain-two {
+    width: 525px;
+    height: 319px;
+    position: relative;
+    left: 189px;
+    line-height: 27px;
+    color: #808080;
+    top:95px;
+}

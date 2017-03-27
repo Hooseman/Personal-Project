@@ -25,9 +25,29 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity'])
     templateUrl: './views/rifleviews/themodelr-15.html'
   })
   $stateProvider
-  .state('model-R-15-vtr-predator-moe-16-1/2', {
-    url: '/model-R-15-vtr-predator-moe-16-1/2',
-    templateUrl: './views/gunviews/model-R-15-vtr-predator-moe-16-1/2.html'
+  .state('model-r15-vtr-predator-moe-fixed-stock', {
+    url: '/model-r15-vtr-predator-moe-fixed-stock',
+    templateUrl: './views/gunviews/model-r15-vtr-predator-moe-fixed-stock.html'
+  })
+  $stateProvider
+  .state('model-r15-vtr-predator-moe-16-1/2', {
+    url: '/model-r15-vtr-predator-moe-16-1/2',
+    templateUrl: './views/gunviews/model-r15-second.html'
+  })
+  $stateProvider
+  .state('model-r15-vtr-predator-rifle', {
+    url: '/model-r15-vtr-predator-rifle',
+    templateUrl: './views/gunviews/model-r15-predator-rifle.html'
+  })
+  $stateProvider
+  .state('model-r15-vtr-ss-varmint', {
+    url: '/model-r15-vtr-ss-varmint',
+    templateUrl: './views/gunviews/model-r15-vtr-ss-varmint.html'
+  })
+  $stateProvider
+  .state('model-r15-vtr-predator-moe-22', {
+    url: '/model-r15-vtr-predator-moe-22',
+    templateUrl: './views/gunviews/model-r15-vtr-predator-moe-22.html'
   })
   $stateProvider
   .state('bolt-action', {
