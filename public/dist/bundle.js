@@ -58,6 +58,14 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity']).config(function ($s
     url: '/model-700-vtr',
     templateUrl: './views/gunviews/model-700-vtr.html'
   });
+  $stateProvider.state('v3-field-sport-mo-blades', {
+    url: '/v3-field-sport-mo-blades',
+    templateUrl: './views/gunviews/v3-field-sport-mo-blades.html'
+  });
+  $stateProvider.state('v3-field-sport-mobu-country', {
+    url: '/v3-field-sport-mobu-country',
+    templateUrl: './views/gunviews/v3-field-sport-mobu-country.html'
+  });
   $stateProvider.state('bolt-action', {
     url: '/bolt-action',
     templateUrl: './views/bolt-action.html'
@@ -70,148 +78,6 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity']).config(function ($s
     url: '/pumpaction',
     templateUrl: './views/shotgun/pumpaction.html'
   });
-});
-'use strict';
-
-angular.module('remingtonApp').directive('ammunitionTemplate', function () {
-  return {
-    restrict: 'EA',
-    templateUrl: "./views/rifleviews/ammunition-template.html",
-    controller: "remingtonCtrl"
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('hoverammunition', function () {
-  return {
-    restrict: 'E',
-    templateUrl: "./views/navviews/ammunition-dropdown.html",
-    controller: 'remingtonCtrl',
-    link: function link(scope, element, attrs) {}
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('footerNav', function () {
-  return {
-    restrict: 'E',
-    templateUrl: "./footerNav.html",
-    controller: "remingtonCtrl"
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('handgunTemplate', function () {
-  return {
-    restrict: 'EA',
-    templateUrl: "./views/rifleviews/handgun-template.html",
-    controller: "remingtonCtrl"
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('hoverhandgun', function () {
-  return {
-    restrict: 'E',
-    templateUrl: "./views/navviews/handgun-dropdown-nav.html",
-    controller: 'remingtonCtrl',
-    link: function link(scope, element, attrs) {}
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('navBar', function () {
-  return {
-    restrict: 'E',
-    templateUrl: "./navBar.html",
-    controller: "remingtonCtrl"
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('rifleTemplate', function () {
-  return {
-    restrict: 'EA',
-    templateUrl: "./views/rifleviews/rifle-template.html",
-    controller: "remingtonCtrl"
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('hoverrifle', function () {
-  return {
-    restrict: 'E',
-    templateUrl: "./views/navviews/dropdown-nav.html",
-    controller: 'remingtonCtrl',
-    link: function link(scope, element, attrs) {}
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('secondBar', function () {
-  return {
-    restrict: 'E',
-    templateUrl: "./secondnav.html",
-    controller: "remingtonCtrl"
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('shotgunTemplate', function () {
-  return {
-    restrict: 'EA',
-    templateUrl: "./views/rifleviews/shotgun-template.html",
-    controller: "remingtonCtrl"
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('hovershotgun', function () {
-  return {
-    restrict: 'E',
-    templateUrl: "./views/navviews/shotgun-dropdown-nav.html",
-    controller: 'remingtonCtrl',
-    link: function link(scope, element, attrs) {}
-  };
-});
-'use strict';
-
-angular.module('remingtonApp').directive('topCarousel', function () {
-  return {
-    restrict: 'E',
-    templateUrl: "./views/remington/topCarousel.html",
-    controller: function controller($scope) {
-      function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-          slideIndex = 1;
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 6000);
-      }
-
-      var slideIndex = 0;
-      showSlides(slideIndex);
-
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-    }
-  };
 });
 'use strict';
 
@@ -470,6 +336,148 @@ angular.module('remingtonApp').controller('remingtonCtrl', function ($scope, mai
         $scope.showCenterFireRifle = false;
         $scope.showShotShell = false;
     };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('ammunitionTemplate', function () {
+  return {
+    restrict: 'EA',
+    templateUrl: "./views/rifleviews/ammunition-template.html",
+    controller: "remingtonCtrl"
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('hoverammunition', function () {
+  return {
+    restrict: 'E',
+    templateUrl: "./views/navviews/ammunition-dropdown.html",
+    controller: 'remingtonCtrl',
+    link: function link(scope, element, attrs) {}
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('footerNav', function () {
+  return {
+    restrict: 'E',
+    templateUrl: "./footerNav.html",
+    controller: "remingtonCtrl"
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('handgunTemplate', function () {
+  return {
+    restrict: 'EA',
+    templateUrl: "./views/rifleviews/handgun-template.html",
+    controller: "remingtonCtrl"
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('hoverhandgun', function () {
+  return {
+    restrict: 'E',
+    templateUrl: "./views/navviews/handgun-dropdown-nav.html",
+    controller: 'remingtonCtrl',
+    link: function link(scope, element, attrs) {}
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('navBar', function () {
+  return {
+    restrict: 'E',
+    templateUrl: "./navBar.html",
+    controller: "remingtonCtrl"
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('rifleTemplate', function () {
+  return {
+    restrict: 'EA',
+    templateUrl: "./views/rifleviews/rifle-template.html",
+    controller: "remingtonCtrl"
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('hoverrifle', function () {
+  return {
+    restrict: 'E',
+    templateUrl: "./views/navviews/dropdown-nav.html",
+    controller: 'remingtonCtrl',
+    link: function link(scope, element, attrs) {}
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('secondBar', function () {
+  return {
+    restrict: 'E',
+    templateUrl: "./secondnav.html",
+    controller: "remingtonCtrl"
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('shotgunTemplate', function () {
+  return {
+    restrict: 'EA',
+    templateUrl: "./views/rifleviews/shotgun-template.html",
+    controller: "remingtonCtrl"
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('hovershotgun', function () {
+  return {
+    restrict: 'E',
+    templateUrl: "./views/navviews/shotgun-dropdown-nav.html",
+    controller: 'remingtonCtrl',
+    link: function link(scope, element, attrs) {}
+  };
+});
+'use strict';
+
+angular.module('remingtonApp').directive('topCarousel', function () {
+  return {
+    restrict: 'E',
+    templateUrl: "./views/remington/topCarousel.html",
+    controller: function controller($scope) {
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 6000);
+      }
+
+      var slideIndex = 0;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+    }
+  };
 });
 'use strict';
 

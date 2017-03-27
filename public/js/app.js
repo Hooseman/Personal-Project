@@ -71,6 +71,16 @@ angular.module('remingtonApp', ['ui.router', 'bc.Flickity'])
     templateUrl: './views/gunviews/model-700-vtr.html'
   })
   $stateProvider
+  .state('v3-field-sport-mo-blades', {
+    url: '/v3-field-sport-mo-blades',
+    templateUrl: './views/gunviews/v3-field-sport-mo-blades.html'
+  })
+  $stateProvider
+  .state('v3-field-sport-mobu-country', {
+    url: '/v3-field-sport-mobu-country',
+    templateUrl: './views/gunviews/v3-field-sport-mobu-country.html'
+  })
+  $stateProvider
   .state('bolt-action', {
     url: '/bolt-action',
     templateUrl: './views/bolt-action.html'

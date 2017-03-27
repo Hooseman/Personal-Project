@@ -31,13 +31,13 @@
 
             <div class="header">
                 <li class="navHover" id="rifle_one">
-                  <a class="rifle_one" ng-mouseenter="hoverRifle()" ui-sref='rifles'>RIFLES</a>
+                  <a class="rifle_one" ng-click="leaveRifle()" ng-mouseenter="hoverRifle()" ui-sref='rifles'>RIFLES</a>
                 </li>
                 <li class="navHover" id="shotgun_one">
-                  <a class="rifle_one" ng-mouseenter="hoverShotgun()" ui-sref='shotguns'>SHOTGUNS</a>
+                  <a class="rifle_one" ng-click="leaveShotgun()" ng-mouseenter="hoverShotgun()" ui-sref='shotguns'>SHOTGUNS</a>
                 </li>
                 <li class="navHover" id="handgun_one">
-                  <a class="rifle_one" ng-mouseenter="hoverHandgun()" ui-sref='remington'>HANDGUNS</a>
+                  <a class="rifle_one" ng-click="leaveHandgun()" ng-mouseenter="hoverHandgun()" ui-sref='remington'>HANDGUNS</a>
                 </li>
                 <li class="navHover" id="ammunition_one">
                   <a class='other-products-link' ng-mouseenter="hoverAmmunition()" ui-sref='remington'>AMMUNITION</a>
