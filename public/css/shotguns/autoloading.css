@@ -7,6 +7,15 @@
     z-index: -1;
 }
 
+.bg-image-pumpaction {
+    background-image: url("http://bit.ly/2mJKVH3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 723px;
+    width: 100vw;
+    z-index: -1;
+}
+
 .div-modern-inside-right-rightside-autoloading {
     background-image: url("http://bit.ly/2n8w7xL");
     width: 350px;
@@ -18,6 +27,16 @@
     top: -41px;
 }
 
+.div-modern-inside-right-rightside-pumpaction {
+    background-image: url("http://bit.ly/2nbctRI");
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 51px;
+    position: relative;
+    top: -41px;
+}
 .div-modern-autoloading-image {
     background-repeat: no-repeat;
     background-size: cover;

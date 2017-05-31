@@ -101,7 +101,7 @@
 }
 
 #slideone-logo-one {
-    background-image: url(http://bit.ly/2n8OvaI);
+    background-image: url("http://bit.ly/2n8OvaI");
     background-repeat: no-repeat;
     background-size: cover;
     width: 156px;
@@ -169,7 +169,7 @@
 }
 
 #slideone-logo-two {
-    background-image: url(http://bit.ly/2nT70zY);
+    background-image: url("http://bit.ly/2nT70zY");
     background-repeat: no-repeat;
     background-size: cover;
     width: 296px;

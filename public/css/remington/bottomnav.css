@@ -78,71 +78,69 @@
 .inner-left-footer-left {
     width: 249px;
     height: 443px;
-    /*background-color: orange;*/
 }
 
 .inner-left-last-left {
     width: 249px;
     height: 443px;
-    /*background-color: orange;*/
 }
 
 .inner-left-footer-left-top {
     width: 121px;
     height: 163px;
-    /*background-color: cadetblue;*/
+    cursor: pointer;
 }
 
 .inner-left-footer-left-middle {
     width: 121px;
     height: 90px;
-    /*background-color: cadetblue;*/
     position: relative;
     top: 13px;
+    cursor: pointer;
 }
 
 .inner-left-footer-left-bottom {
     width: 121px;
     height: 163px;
-    /*background-color: cadetblue;*/
     position: relative;
     top: 27px;
+    cursor: pointer;
 }
 
 .inner-left-footer-middle-top {
     width: 121px;
     height: 163px;
-    /*background-color: cadetblue;*/
+    cursor: pointer;
 }
 
 .inner-left-footer-middle-middle {
     width: 121px;
     height: 90px;
-    /*background-color: cadetblue;*/
     position: relative;
     top: 13px;
+    cursor: pointer;
 }
 
 .inner-left-footer-middle-bottom {
     width: 121px;
     height: 163px;
-    /*background-color: cadetblue;*/
     position: relative;
     top: 60px;
+    cursor: pointer;
 }
 
 .inner-left-footer-last-top {
     width: 121px;
     height: 163px;
-    /*background-color: cadetblue;*/
+    cursor: pointer;
 }
 
 .inner-left-footer-last-middle {
     width: 121px;
     height: 90px;
-    /*background-color: cadetblue;*/
     position: relative;
     top: 13px;
+    cursor: pointer;
 }
 
 #inner-gun-rifle {

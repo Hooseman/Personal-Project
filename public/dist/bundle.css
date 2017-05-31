@@ -175,7 +175,7 @@ input, select {
   margin: auto; }
 
 #slideone-logo-one {
-  background-image: url(http://bit.ly/2n8OvaI);
+  background-image: url("http://bit.ly/2n8OvaI");
   background-repeat: no-repeat;
   background-size: cover;
   width: 156px;
@@ -236,7 +236,7 @@ input, select {
   font-family: "AvenirNextLTW01-Regular", Geneva, Tahoma, Verdana, sans-serif; }
 
 #slideone-logo-two {
-  background-image: url(http://bit.ly/2nT70zY);
+  background-image: url("http://bit.ly/2nT70zY");
   background-repeat: no-repeat;
   background-size: cover;
   width: 296px;
@@ -622,13 +622,13 @@ input, select {
   background-color: white;
   position: relative;
   margin: auto;
-  top: 104px; }
+  top: 104px;
+  cursor: pointer; }
 
 #learnMoreText {
   text-align: center;
   position: relative;
-  top: 10px;
-  font-size: 13px; }
+  top: 10px; }
 
 .catalogLogo {
   background-image: url("http://bit.ly/2nvZ1Zi");
@@ -653,7 +653,8 @@ input, select {
   background-color: white;
   margin: auto;
   position: relative;
-  top: 100px; }
+  top: 100px;
+  cursor: pointer; }
 
 #diveInText {
   text-align: center;
@@ -709,7 +710,8 @@ input, select {
   -ms-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
-  mix-blend-mode: hard-light; }
+  mix-blend-mode: hard-light;
+  cursor: pointer; }
 
 #tile:hover:before {
   background: #074b23; }
@@ -750,57 +752,68 @@ input, select {
 .tileImageOne {
   background-image: url("http://bit.ly/2mxbGJI");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageTwo {
   background-image: url("http://bit.ly/2mTNcOz");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageThree {
   background-image: url("http://bit.ly/2mTWhXp");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageFour {
   background-image: url("http://bit.ly/2neBG0X");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageFive {
   background-image: url("http://bit.ly/2nJEX4T");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageSix {
   background-image: url("http://bit.ly/2neoV6B");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageSeven {
   background-image: url("http://bit.ly/2nwLG2T");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageEight {
   background-image: url("http://bit.ly/2n3XR9B");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageNine {
   background-image: url("http://bit.ly/2nevINP");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageTen {
   background-image: url("http://bit.ly/2mTKTL4");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .tileImageEleven {
   background-image: url("http://bit.ly/2neAOt6");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  cursor: pointer; }
 
 .parrolaxSpacing {
   width: 100vw;
@@ -897,19 +910,22 @@ input, select {
   position: relative;
   font-size: 25px;
   top: 43px;
-  left: 10px; }
+  left: 10px;
+  cursor: pointer; }
 
 #media-left-text-ones {
   position: relative;
   font-size: 25px;
   top: 25px;
-  left: 10px; }
+  left: 10px;
+  cursor: pointer; }
 
 #media-left-text-two {
   position: relative;
   font-size: 25px;
   top: 29px;
-  left: 10px; }
+  left: 10px;
+  cursor: pointer; }
 
 .media-left-up-one {
   width: 300px;
@@ -1652,63 +1668,61 @@ a:-webkit-any-link {
 
 .inner-left-footer-left {
   width: 249px;
-  height: 443px;
-  /*background-color: orange;*/ }
+  height: 443px; }
 
 .inner-left-last-left {
   width: 249px;
-  height: 443px;
-  /*background-color: orange;*/ }
+  height: 443px; }
 
 .inner-left-footer-left-top {
   width: 121px;
   height: 163px;
-  /*background-color: cadetblue;*/ }
+  cursor: pointer; }
 
 .inner-left-footer-left-middle {
   width: 121px;
   height: 90px;
-  /*background-color: cadetblue;*/
   position: relative;
-  top: 13px; }
+  top: 13px;
+  cursor: pointer; }
 
 .inner-left-footer-left-bottom {
   width: 121px;
   height: 163px;
-  /*background-color: cadetblue;*/
   position: relative;
-  top: 27px; }
+  top: 27px;
+  cursor: pointer; }
 
 .inner-left-footer-middle-top {
   width: 121px;
   height: 163px;
-  /*background-color: cadetblue;*/ }
+  cursor: pointer; }
 
 .inner-left-footer-middle-middle {
   width: 121px;
   height: 90px;
-  /*background-color: cadetblue;*/
   position: relative;
-  top: 13px; }
+  top: 13px;
+  cursor: pointer; }
 
 .inner-left-footer-middle-bottom {
   width: 121px;
   height: 163px;
-  /*background-color: cadetblue;*/
   position: relative;
-  top: 60px; }
+  top: 60px;
+  cursor: pointer; }
 
 .inner-left-footer-last-top {
   width: 121px;
   height: 163px;
-  /*background-color: cadetblue;*/ }
+  cursor: pointer; }
 
 .inner-left-footer-last-middle {
   width: 121px;
   height: 90px;
-  /*background-color: cadetblue;*/
   position: relative;
-  top: 13px; }
+  top: 13px;
+  cursor: pointer; }
 
 #inner-gun-rifle {
   font-size: 13px;
@@ -3507,8 +3521,26 @@ body {
   width: 100vw;
   z-index: -1; }
 
+.bg-image-pumpaction {
+  background-image: url("http://bit.ly/2mJKVH3");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 723px;
+  width: 100vw;
+  z-index: -1; }
+
 .div-modern-inside-right-rightside-autoloading {
   background-image: url("http://bit.ly/2n8w7xL");
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 51px;
+  position: relative;
+  top: -41px; }
+
+.div-modern-inside-right-rightside-pumpaction {
+  background-image: url("http://bit.ly/2nbctRI");
   width: 350px;
   height: 200px;
   background-repeat: no-repeat;

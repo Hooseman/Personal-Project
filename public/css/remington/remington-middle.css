@@ -49,13 +49,13 @@
     position: relative;
     margin: auto;
     top: 104px;
+    cursor: pointer;
 }
 
 #learnMoreText {
     text-align: center;
     position: relative;
     top: 10px;
-    font-size: 13px;
 }
 
 .catalogLogo {
@@ -84,6 +84,7 @@
     margin: auto;
     position: relative;
     top: 100px;
+    cursor: pointer;
 }
 
 #diveInText {
@@ -147,6 +148,7 @@
     -o-transition: all .3s linear;
     transition: all .3s linear;
     mix-blend-mode: hard-light;
+    cursor: pointer;
 }
 
 #tile:hover:before {
@@ -194,66 +196,77 @@
     background-image: url("http://bit.ly/2mxbGJI");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageTwo {
     background-image: url("http://bit.ly/2mTNcOz");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageThree {
     background-image: url("http://bit.ly/2mTWhXp");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageFour {
     background-image: url("http://bit.ly/2neBG0X");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageFive {
     background-image: url("http://bit.ly/2nJEX4T");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageSix {
     background-image: url("http://bit.ly/2neoV6B");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageSeven {
     background-image: url("http://bit.ly/2nwLG2T");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageEight {
     background-image: url("http://bit.ly/2n3XR9B");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageNine {
     background-image: url("http://bit.ly/2nevINP");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageTen {
     background-image: url("http://bit.ly/2mTKTL4");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .tileImageEleven {
     background-image: url("http://bit.ly/2neAOt6");
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .parrolaxSpacing {
